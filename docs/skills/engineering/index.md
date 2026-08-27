@@ -1,13 +1,13 @@
 ---
 title: "Engineering - POWERFUL Skills"
-description: "All 26 Engineering - POWERFUL skills for Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+description: "All 27 Engineering - POWERFUL skills for Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
 ---
 
 <div class="domain-header" markdown>
 
 # :material-rocket-launch: Engineering - POWERFUL
 
-<p class="domain-count">26 skills in this domain</p>
+<p class="domain-count">27 skills in this domain</p>
 
 </div>
 
@@ -71,6 +71,12 @@ description: "All 26 Engineering - POWERFUL skills for Claude Code, Codex CLI, G
 
     Tier: POWERFUL
 
+-   **[Deep Research](deep-research.md)**
+
+    ---
+
+    Name: Deep Research
+
 -   **[Dependency Auditor](dependency-auditor.md)**
 
     ---
@@ -81,7 +87,7 @@ description: "All 26 Engineering - POWERFUL skills for Claude Code, Codex CLI, G
 
     ---
 
-    25 advanced engineering skills for complex architecture, automation, and platform operations.
+    26 advanced engineering skills for complex architecture, automation, and platform operations.
 
 -   **[Env & Secrets Manager](env-secrets-manager.md)**
 

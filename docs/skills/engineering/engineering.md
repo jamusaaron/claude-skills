@@ -16,7 +16,7 @@ description: "Engineering Advanced Skills (POWERFUL Tier) - Claude Code skill fr
 </div>
 
 
-25 advanced engineering skills for complex architecture, automation, and platform operations.
+26 advanced engineering skills for complex architecture, automation, and platform operations.
 
 ## Quick Start
 
@@ -43,6 +43,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills/engineering
 | Codebase Onboarding | `codebase-onboarding/` | New dev onboarding guides |
 | Database Designer | `database-designer/` | Schema design, migrations |
 | Database Schema Designer | `database-schema-designer/` | ERD, normalization |
+| Deep Research | `deep-research/` | Multi-source evidence pipelines, source criticism, decision briefs |
 | Dependency Auditor | `dependency-auditor/` | Dependency security scanning |
 | Env Secrets Manager | `env-secrets-manager/` | Secrets rotation, vault |
 | Git Worktree Manager | `git-worktree-manager/` | Parallel branch workflows |

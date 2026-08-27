@@ -1,0 +1,198 @@
+{
+  "skill": "deep-research",
+  "artifact": "bibliography",
+  "generated_at": "2026-08-27T08:39:51Z",
+  "count": 5,
+  "duplicates_merged": 0,
+  "records": [
+    {
+      "id": "ev-iceland-gov",
+      "type": "government",
+      "title": "Iceland shorter working week trials: official evaluation",
+      "authors": [
+        "Reykjavik City",
+        "Icelandic Government"
+      ],
+      "year": "2021",
+      "container": "gov.is",
+      "doi": null,
+      "url": "https://www.gov.is/publications/four-day-week-trial",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "raw_type": "object",
+      "apa": "Reykjavik City & Icelandic Government (2021). Iceland shorter working week trials: official evaluation. gov.is. https://www.gov.is/publications/four-day-week-trial",
+      "bibtex": "@misc{ev-iceland-gov,\n  title = {Iceland shorter working week trials: official evaluation},\n  author = {Reykjavik City and Icelandic Government},\n  year = {2021},\n  howpublished = {gov.is},\n  url = {https://www.gov.is/publications/four-day-week-trial}\n}",
+      "csl": {
+        "id": "ev-iceland-gov",
+        "type": "webpage",
+        "title": "Iceland shorter working week trials: official evaluation",
+        "author": [
+          {
+            "family": "City",
+            "given": "Reykjavik"
+          },
+          {
+            "family": "Government",
+            "given": "Icelandic"
+          }
+        ],
+        "issued": {
+          "year": 2021
+        },
+        "DOI": null,
+        "URL": "https://www.gov.is/publications/four-day-week-trial",
+        "container-title": "gov.is"
+      }
+    },
+    {
+      "id": "ev-msft-japan",
+      "type": "corporate",
+      "title": "Microsoft Japan four-day work week trial results",
+      "authors": [
+        "Microsoft Japan"
+      ],
+      "year": "2019",
+      "container": "news.microsoft.com",
+      "doi": null,
+      "url": "https://news.microsoft.com/source/2019/11/04/four-day-work-week/",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "raw_type": "object",
+      "apa": "Microsoft Japan (2019). Microsoft Japan four-day work week trial results. news.microsoft.com. https://news.microsoft.com/source/2019/11/04/four-day-work-week/",
+      "bibtex": "@misc{ev-msft-japan,\n  title = {Microsoft Japan four-day work week trial results},\n  author = {Microsoft Japan},\n  year = {2019},\n  howpublished = {news.microsoft.com},\n  url = {https://news.microsoft.com/source/2019/11/04/four-day-work-week/}\n}",
+      "csl": {
+        "id": "ev-msft-japan",
+        "type": "webpage",
+        "title": "Microsoft Japan four-day work week trial results",
+        "author": [
+          {
+            "family": "Japan",
+            "given": "Microsoft"
+          }
+        ],
+        "issued": {
+          "year": 2019
+        },
+        "DOI": null,
+        "URL": "https://news.microsoft.com/source/2019/11/04/four-day-work-week/",
+        "container-title": "news.microsoft.com"
+      }
+    },
+    {
+      "id": "ev-bloom-critique",
+      "type": "academic",
+      "title": "Working from home and productivity: a review of the evidence",
+      "authors": [
+        "Bloom, Nicholas"
+      ],
+      "year": "2022",
+      "container": "nber.org",
+      "doi": "10.3386/w30492",
+      "url": "https://www.nber.org/papers/w30492",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "raw_type": "object",
+      "apa": "Bloom, Nicholas (2022). Working from home and productivity: a review of the evidence. nber.org. https://doi.org/10.3386/w30492",
+      "bibtex": "@article{ev-bloom-critique,\n  title = {Working from home and productivity: a review of the evidence},\n  author = {Bloom, Nicholas},\n  year = {2022},\n  journal = {nber.org},\n  doi = {10.3386/w30492},\n  url = {https://www.nber.org/papers/w30492}\n}",
+      "csl": {
+        "id": "ev-bloom-critique",
+        "type": "webpage",
+        "title": "Working from home and productivity: a review of the evidence",
+        "author": [
+          {
+            "family": "Bloom",
+            "given": "Nicholas"
+          }
+        ],
+        "issued": {
+          "year": 2022
+        },
+        "DOI": "10.3386/w30492",
+        "URL": "https://www.nber.org/papers/w30492",
+        "container-title": "nber.org"
+      }
+    },
+    {
+      "id": "ev-blog-hype",
+      "type": "blog",
+      "title": "The four-day week destroyed the five-day office",
+      "authors": [
+        "Growth Hacker"
+      ],
+      "year": "2024",
+      "container": "medium.com",
+      "doi": null,
+      "url": "https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "raw_type": "object",
+      "apa": "Growth Hacker (2024). The four-day week destroyed the five-day office. medium.com. https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office",
+      "bibtex": "@misc{ev-blog-hype,\n  title = {The four-day week destroyed the five-day office},\n  author = {Growth Hacker},\n  year = {2024},\n  howpublished = {medium.com},\n  url = {https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office}\n}",
+      "csl": {
+        "id": "ev-blog-hype",
+        "type": "webpage",
+        "title": "The four-day week destroyed the five-day office",
+        "author": [
+          {
+            "family": "Hacker",
+            "given": "Growth"
+          }
+        ],
+        "issued": {
+          "year": 2024
+        },
+        "DOI": null,
+        "URL": "https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office",
+        "container-title": "medium.com"
+      }
+    },
+    {
+      "id": "ev-4dww-uk",
+      "type": "think-tank",
+      "title": "The UK's four-day week pilot",
+      "authors": [
+        "Autonomy",
+        "4 Day Week Global"
+      ],
+      "year": "2023",
+      "container": "autonomy.work",
+      "doi": null,
+      "url": "https://autonomy.work/portfolio/uk4dwwpilot/",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "raw_type": "object",
+      "apa": "Autonomy & 4 Day Week Global (2023). The UK's four-day week pilot. autonomy.work. https://autonomy.work/portfolio/uk4dwwpilot/",
+      "bibtex": "@misc{ev-4dww-uk,\n  title = {The UK's four-day week pilot},\n  author = {Autonomy and 4 Day Week Global},\n  year = {2023},\n  howpublished = {autonomy.work},\n  url = {https://autonomy.work/portfolio/uk4dwwpilot/}\n}",
+      "csl": {
+        "id": "ev-4dww-uk",
+        "type": "webpage",
+        "title": "The UK's four-day week pilot",
+        "author": [
+          {
+            "family": "Autonomy"
+          },
+          {
+            "family": "Global",
+            "given": "4 Day Week"
+          }
+        ],
+        "issued": {
+          "year": 2023
+        },
+        "DOI": null,
+        "URL": "https://autonomy.work/portfolio/uk4dwwpilot/",
+        "container-title": "autonomy.work"
+      }
+    }
+  ]
+}

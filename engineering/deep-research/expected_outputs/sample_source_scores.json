@@ -1,0 +1,321 @@
+{
+  "skill": "deep-research",
+  "artifact": "source_scores",
+  "generated_at": "2026-08-27T08:39:50Z",
+  "as_of": "2026-08-27",
+  "count": 5,
+  "summary": {
+    "mean_score": 54.6,
+    "min_score": 45.6,
+    "max_score": 63.1,
+    "high_or_better": 0,
+    "low": 0
+  },
+  "results": [
+    {
+      "id": "ev-iceland-gov",
+      "title": "Iceland shorter working week trials: official evaluation",
+      "url": "https://www.gov.is/publications/four-day-week-trial",
+      "source_type": "government",
+      "host": "gov.is",
+      "score": 57.0,
+      "band": "medium",
+      "use": "eligible as supporting/pivotal evidence",
+      "dimensions": {
+        "provenance": {
+          "score": 5.0,
+          "rationale": "Unclassified host; default mid score pending metadata"
+        },
+        "recency": {
+          "score": 6.5,
+          "rationale": "Published 2021-07-01 (5.2y)"
+        },
+        "methodology": {
+          "score": 4.8,
+          "rationale": "No method metadata; conservative mid-low score"
+        },
+        "corroboration": {
+          "score": 5.0,
+          "rationale": "Corroboration not scored from network; default mid until matrix is built"
+        },
+        "funding": {
+          "score": 5.2,
+          "rationale": "Funding undisclosed"
+        },
+        "framing": {
+          "score": 7.4,
+          "rationale": "No obvious loaded-language flags"
+        },
+        "evidential_weight": {
+          "score": 8.0,
+          "rationale": "Type prior for 'government'"
+        },
+        "counter_evidence": {
+          "score": 4.4,
+          "rationale": "No limitation language detected"
+        },
+        "reproducibility": {
+          "score": 6.0,
+          "rationale": "URL present — claims can be re-fetched"
+        },
+        "peer_review": {
+          "score": 5.0,
+          "rationale": "Unknown editorial standard"
+        },
+        "perspective_diversity": {
+          "score": 5.5,
+          "rationale": "Mainstream or unspecified perspective"
+        },
+        "integrity": {
+          "score": 5.93,
+          "rationale": "Composite of provenance/methods/weight with framing/funding penalties"
+        }
+      },
+      "as_of": "2026-08-27"
+    },
+    {
+      "id": "ev-msft-japan",
+      "title": "Microsoft Japan four-day work week trial results",
+      "url": "https://news.microsoft.com/source/2019/11/04/four-day-work-week/",
+      "source_type": "corporate",
+      "host": "news.microsoft.com",
+      "score": 53.5,
+      "band": "medium-low",
+      "use": "cite with credibility caveat",
+      "dimensions": {
+        "provenance": {
+          "score": 5.0,
+          "rationale": "Unclassified host; default mid score pending metadata"
+        },
+        "recency": {
+          "score": 6.5,
+          "rationale": "Published 2019-11-04 (6.8y)"
+        },
+        "methodology": {
+          "score": 4.8,
+          "rationale": "No method metadata; conservative mid-low score"
+        },
+        "corroboration": {
+          "score": 5.0,
+          "rationale": "Corroboration not scored from network; default mid until matrix is built"
+        },
+        "funding": {
+          "score": 5.2,
+          "rationale": "Funding undisclosed"
+        },
+        "framing": {
+          "score": 7.4,
+          "rationale": "No obvious loaded-language flags"
+        },
+        "evidential_weight": {
+          "score": 5.0,
+          "rationale": "Unspecified evidential class"
+        },
+        "counter_evidence": {
+          "score": 4.4,
+          "rationale": "No limitation language detected"
+        },
+        "reproducibility": {
+          "score": 6.0,
+          "rationale": "URL present — claims can be re-fetched"
+        },
+        "peer_review": {
+          "score": 5.0,
+          "rationale": "Unknown editorial standard"
+        },
+        "perspective_diversity": {
+          "score": 5.5,
+          "rationale": "Mainstream or unspecified perspective"
+        },
+        "integrity": {
+          "score": 4.93,
+          "rationale": "Composite of provenance/methods/weight with framing/funding penalties"
+        }
+      },
+      "as_of": "2026-08-27"
+    },
+    {
+      "id": "ev-bloom-critique",
+      "title": "Working from home and productivity: a review of the evidence",
+      "url": "https://www.nber.org/papers/w30492",
+      "source_type": "academic",
+      "host": "nber.org",
+      "score": 63.1,
+      "band": "medium",
+      "use": "eligible as supporting/pivotal evidence",
+      "dimensions": {
+        "provenance": {
+          "score": 8.6,
+          "rationale": "Academic / scholarly publisher"
+        },
+        "recency": {
+          "score": 6.5,
+          "rationale": "Published 2022-09-01 (4.0y)"
+        },
+        "methodology": {
+          "score": 4.8,
+          "rationale": "No method metadata; conservative mid-low score"
+        },
+        "corroboration": {
+          "score": 5.0,
+          "rationale": "Corroboration not scored from network; default mid until matrix is built"
+        },
+        "funding": {
+          "score": 5.2,
+          "rationale": "Funding undisclosed"
+        },
+        "framing": {
+          "score": 7.4,
+          "rationale": "No obvious loaded-language flags"
+        },
+        "evidential_weight": {
+          "score": 5.0,
+          "rationale": "Unspecified evidential class"
+        },
+        "counter_evidence": {
+          "score": 4.4,
+          "rationale": "No limitation language detected"
+        },
+        "reproducibility": {
+          "score": 8.2,
+          "rationale": "DOI and/or open data/code flag"
+        },
+        "peer_review": {
+          "score": 8.8,
+          "rationale": "Peer-reviewed or major scholarly venue"
+        },
+        "perspective_diversity": {
+          "score": 5.5,
+          "rationale": "Mainstream or unspecified perspective"
+        },
+        "integrity": {
+          "score": 6.13,
+          "rationale": "Composite of provenance/methods/weight with framing/funding penalties"
+        }
+      },
+      "as_of": "2026-08-27"
+    },
+    {
+      "id": "ev-blog-hype",
+      "title": "The four-day week destroyed the five-day office",
+      "url": "https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office",
+      "source_type": "blog",
+      "host": "medium.com",
+      "score": 45.6,
+      "band": "medium-low",
+      "use": "cite with credibility caveat",
+      "dimensions": {
+        "provenance": {
+          "score": 3.2,
+          "rationale": "User-generated or weakly edited venue"
+        },
+        "recency": {
+          "score": 8.2,
+          "rationale": "Published 2024-03-12 (≤3y)"
+        },
+        "methodology": {
+          "score": 2.5,
+          "rationale": "Opinion/social — little method to evaluate"
+        },
+        "corroboration": {
+          "score": 5.0,
+          "rationale": "Corroboration not scored from network; default mid until matrix is built"
+        },
+        "funding": {
+          "score": 5.2,
+          "rationale": "Funding undisclosed"
+        },
+        "framing": {
+          "score": 4.6,
+          "rationale": "Some loaded language"
+        },
+        "evidential_weight": {
+          "score": 3.0,
+          "rationale": "Type prior for 'blog'"
+        },
+        "counter_evidence": {
+          "score": 4.4,
+          "rationale": "No limitation language detected"
+        },
+        "reproducibility": {
+          "score": 6.0,
+          "rationale": "URL present — claims can be re-fetched"
+        },
+        "peer_review": {
+          "score": 5.0,
+          "rationale": "Unknown editorial standard"
+        },
+        "perspective_diversity": {
+          "score": 5.5,
+          "rationale": "Mainstream or unspecified perspective"
+        },
+        "integrity": {
+          "score": 2.9,
+          "rationale": "Composite of provenance/methods/weight with framing/funding penalties"
+        }
+      },
+      "as_of": "2026-08-27"
+    },
+    {
+      "id": "ev-4dww-uk",
+      "title": "The UK's four-day week pilot",
+      "url": "https://autonomy.work/portfolio/uk4dwwpilot/",
+      "source_type": "think-tank",
+      "host": "autonomy.work",
+      "score": 54.0,
+      "band": "medium-low",
+      "use": "cite with credibility caveat",
+      "dimensions": {
+        "provenance": {
+          "score": 5.0,
+          "rationale": "Unclassified host; default mid score pending metadata"
+        },
+        "recency": {
+          "score": 6.5,
+          "rationale": "Published 2023-02-21 (3.5y)"
+        },
+        "methodology": {
+          "score": 4.8,
+          "rationale": "No method metadata; conservative mid-low score"
+        },
+        "corroboration": {
+          "score": 5.0,
+          "rationale": "Corroboration not scored from network; default mid until matrix is built"
+        },
+        "funding": {
+          "score": 5.2,
+          "rationale": "Funding undisclosed"
+        },
+        "framing": {
+          "score": 7.4,
+          "rationale": "No obvious loaded-language flags"
+        },
+        "evidential_weight": {
+          "score": 5.5,
+          "rationale": "Type prior for 'think-tank'"
+        },
+        "counter_evidence": {
+          "score": 4.4,
+          "rationale": "No limitation language detected"
+        },
+        "reproducibility": {
+          "score": 6.0,
+          "rationale": "URL present — claims can be re-fetched"
+        },
+        "peer_review": {
+          "score": 5.0,
+          "rationale": "Unknown editorial standard"
+        },
+        "perspective_diversity": {
+          "score": 5.5,
+          "rationale": "Mainstream or unspecified perspective"
+        },
+        "integrity": {
+          "score": 5.1,
+          "rationale": "Composite of provenance/methods/weight with framing/funding penalties"
+        }
+      },
+      "as_of": "2026-08-27"
+    }
+  ]
+}

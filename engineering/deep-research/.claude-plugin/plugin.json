@@ -1,0 +1,13 @@
+{
+  "name": "deep-research",
+  "description": "POWERFUL-tier deep research: seven-phase evidence pipeline, source scoring, claim-evidence matrices, contradiction detection, confidence calibration, and resume-able stores. Stdlib Python CLIs only.",
+  "version": "2.1.2",
+  "author": {
+    "name": "Alireza Rezvani",
+    "url": "https://alirezarezvani.com"
+  },
+  "homepage": "https://github.com/alirezarezvani/claude-skills/tree/main/engineering/deep-research",
+  "repository": "https://github.com/alirezarezvani/claude-skills",
+  "license": "MIT",
+  "skills": "./"
+}

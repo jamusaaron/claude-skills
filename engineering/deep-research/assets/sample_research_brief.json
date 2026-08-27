@@ -1,0 +1,9 @@
+{
+  "topic": "Do four-day work weeks improve software-team delivery without harming quality?",
+  "audience": "product",
+  "effort": "medium",
+  "geo": "GLOBAL",
+  "since": "2019-01-01",
+  "exclude": ["vendor webinars without methods"],
+  "success_criteria": "A decision brief that says ship / don't ship / trial, with confidence bands and reverse-the-call evidence."
+}

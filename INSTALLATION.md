@@ -897,7 +897,7 @@ ls ~/.codex/skills/ | wc -l
 |----------|--------|----------|
 | **c-level** | 28 | ceo-advisor, cto-advisor, cfo-advisor, executive-mentor |
 | **engineering** | 23 | senior-fullstack, aws-solution-architect, senior-ml-engineer, playwright-pro |
-| **engineering-advanced** | 25 | agent-designer, rag-architect, mcp-server-builder, performance-profiler |
+| **engineering-advanced** | 26 | agent-designer, rag-architect, deep-research, mcp-server-builder, performance-profiler |
 | **marketing** | 42 | content-creator, seo-audit, campaign-analytics, content-strategy |
 | **product** | 8 | product-manager-toolkit, agile-product-owner, saas-scaffolder |
 | **project-management** | 6 | scrum-master, senior-pm, jira-expert, confluence-expert |

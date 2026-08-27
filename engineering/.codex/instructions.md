@@ -13,6 +13,7 @@ When working on advanced engineering tasks, use the POWERFUL-tier skill system:
 |------|-------|
 | Agent architecture | agent-designer |
 | RAG systems | rag-architect |
+| Deep research / evidence synthesis | deep-research |
 | MCP servers | mcp-server-builder |
 | CI/CD pipelines | ci-cd-pipeline-builder |
 | Database schema | database-designer |

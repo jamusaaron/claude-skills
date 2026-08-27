@@ -1,0 +1,162 @@
+{
+  "skill": "deep-research",
+  "artifact": "synthesis_outline",
+  "generated_at": "2026-08-27T08:39:51Z",
+  "topic": "Do four-day work weeks improve software-team delivery without harming quality?",
+  "audience": "executive",
+  "audience_label": "Decision-maker / executive",
+  "tone": "Short, decision-first, residual risk explicit.",
+  "effort": "medium",
+  "quality_gates": [
+    "Every non-obvious high-stakes claim has ≥2 independent high/medium-integrity sources or 1 primary.",
+    "Low-integrity sources used only illustratively, with explicit framing.",
+    "Opposing evidence is steelmanned, not minimized.",
+    "Findings dated as-of; rapidly evolving topics carry a monitor note.",
+    "Uncertainty bands appear on every key finding.",
+    "Decision-relevant residual risk is explicit if audience is executive/product."
+  ],
+  "suggested_order": [
+    "exec",
+    "findings",
+    "decision",
+    "limitations"
+  ],
+  "layers": [
+    {
+      "id": "exec",
+      "title": "Layer 1 — Executive summary (150–300 words)",
+      "slots": [
+        "Core answer in one paragraph, dated as-of.",
+        "Confidence band + top 2 drivers of uncertainty.",
+        "Top 3–5 implications or recommendations.",
+        "One-sentence scope/limitation note."
+      ]
+    },
+    {
+      "id": "findings",
+      "title": "Layer 2 — Key findings (claim + citation + confidence)",
+      "slots": [
+        "One bullet per finding: claim, inline citation, source note, confidence tag, 1–2 sentence rationale.",
+        "Group by research question.",
+        "Mark contested findings explicitly; do not smooth them."
+      ],
+      "group_by_questions": [
+        {
+          "id": "Q1",
+          "text": "What is the current, evidence-based answer to: Do four-day work weeks improve software-team delivery without harming quality?",
+          "priority": "pivotal"
+        },
+        {
+          "id": "Q2",
+          "text": "What are the strongest competing explanations or positions, and what evidence supports each?",
+          "priority": "pivotal"
+        },
+        {
+          "id": "Q3",
+          "text": "Which claims are well-established vs contested vs unknown as of the research date?",
+          "priority": "pivotal"
+        },
+        {
+          "id": "Q4",
+          "text": "What mechanisms (causal, institutional, technical) would have to be true for the leading claim to hold?",
+          "priority": "supporting"
+        },
+        {
+          "id": "Q5",
+          "text": "Who are the stakeholders, what incentives do they have, and how does that shape the evidence base?",
+          "priority": "supporting"
+        }
+      ],
+      "seed_findings": [
+        {
+          "id": "c-ice-1",
+          "text": "Trial sites maintained or improved service levels while reducing hours by 4–5 per week",
+          "status": "weakly-supported",
+          "net_weight": 3,
+          "question_ids": [
+            "Q1"
+          ],
+          "outline_hint": "Park in limitations until verification loop."
+        },
+        {
+          "id": "C-dd2e88e2da",
+          "text": "Remote and compressed-week effects on productivity are highly task- and measurement-dependent; self-reported gains often exceed output-based measures",
+          "status": "refuted",
+          "net_weight": -3,
+          "question_ids": [
+            "Q1"
+          ],
+          "outline_hint": "Park in limitations until verification loop."
+        },
+        {
+          "id": "C-b8adb24cb7",
+          "text": "Selection effects and short trial windows inflate apparent productivity gains",
+          "status": "weakly-supported",
+          "net_weight": 3,
+          "question_ids": [
+            "Q2"
+          ],
+          "outline_hint": "Park in limitations until verification loop."
+        },
+        {
+          "id": "C-b6a9145ae9",
+          "text": "Company revenue stayed broadly the same while staff-reported productivity rose; 92% of firms continued after the trial",
+          "status": "weakly-supported",
+          "net_weight": 3,
+          "question_ids": [
+            "Q1"
+          ],
+          "outline_hint": "Park in limitations until verification loop."
+        },
+        {
+          "id": "C-720ebe2d46",
+          "text": "Labour productivity rose 39.9% during a one-month four-day trial",
+          "status": "weakly-supported",
+          "net_weight": 2,
+          "question_ids": [
+            "Q1"
+          ],
+          "outline_hint": "Park in limitations until verification loop."
+        }
+      ]
+    },
+    {
+      "id": "decision",
+      "title": "Decision frame",
+      "slots": [
+        "Options considered.",
+        "Recommended option and the evidence that would reverse it.",
+        "No-regret moves vs bets that need more evidence."
+      ]
+    },
+    {
+      "id": "limitations",
+      "title": "Layer 5 — Limitations, uncertainties, research agenda",
+      "slots": [
+        "Inventory of gaps and volatile areas.",
+        "Alternative interpretations still standing.",
+        "Specific follow-up queries and data sources."
+      ],
+      "known_gaps": [
+        "Q1: Missing source classes: primary documents",
+        "Q2: Fewer than 2 sources or no high-integrity source",
+        "Q3: No sources mapped",
+        "Q4: No sources mapped",
+        "Q5: No sources mapped",
+        "Empty questions remain — do not synthesize a confident answer yet."
+      ]
+    }
+  ],
+  "persona_passes_before_delivery": [
+    "analyst: completeness of claim mapping",
+    "domain_expert: methods and missing canonical sources",
+    "skeptic: contradictions, shared provenance, overclaiming",
+    "decision_maker: so-what, reverse-the-call evidence"
+  ],
+  "anti_patterns": [
+    "Leading with a narrative and hunting citations afterwards.",
+    "False balance on a lopsided evidence base.",
+    "Burying contested findings in an appendix.",
+    "Omitting the as-of date on volatile topics."
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "skill": "deep-research",
+  "artifact": "confidence_report",
+  "generated_at": "2026-08-27T08:40:19Z",
+  "count": 6,
+  "summary": {
+    "mean": 29.5,
+    "min": 5.0,
+    "max": 40.4,
+    "very_high": 0,
+    "high": 0,
+    "medium": 0,
+    "low": 6,
+    "overconfidence_flags": 0
+  },
+  "findings": [
+    {
+      "id": "c-ice-1",
+      "text": "Trial sites maintained or improved service levels while reducing hours by 4–5 per week",
+      "status": "weakly-supported",
+      "confidence": 40.4,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 supporting source(s)",
+        "1 independent high-integrity supports"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 1,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    },
+    {
+      "id": "C-dd2e88e2da",
+      "text": "Remote and compressed-week effects on productivity are highly task- and measurement-dependent; self-reported gains often exceed output-based measures",
+      "status": "refuted",
+      "confidence": 5.0,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 contradicting source(s)"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 0,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    },
+    {
+      "id": "C-b8adb24cb7",
+      "text": "Selection effects and short trial windows inflate apparent productivity gains",
+      "status": "weakly-supported",
+      "confidence": 40.4,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 supporting source(s)",
+        "1 independent high-integrity supports"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 1,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    },
+    {
+      "id": "C-b6a9145ae9",
+      "text": "Company revenue stayed broadly the same while staff-reported productivity rose; 92% of firms continued after the trial",
+      "status": "weakly-supported",
+      "confidence": 40.4,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 supporting source(s)",
+        "1 independent high-integrity supports"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 1,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    },
+    {
+      "id": "C-720ebe2d46",
+      "text": "Labour productivity rose 39.9% during a one-month four-day trial",
+      "status": "weakly-supported",
+      "confidence": 26.7,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 supporting source(s)"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 0,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    },
+    {
+      "id": "C-470c0b525c",
+      "text": "Every company that tries a four-day week sees productivity explode by 40% or more",
+      "status": "weakly-supported",
+      "confidence": 24.4,
+      "band": "low",
+      "ladder": "Low <50% — sparse, contested, or single-provenance.",
+      "drivers": [
+        "1 supporting source(s)"
+      ],
+      "overconfidence_flag": false,
+      "possible_undercall": false,
+      "independence": {
+        "family_count": 1,
+        "independent_high": 0,
+        "shared_risk": false,
+        "meets_bar": false
+      },
+      "contradiction_flags": 0,
+      "what_would_move_it": "One independent high-integrity primary on the same operationalization."
+    }
+  ]
+}

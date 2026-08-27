@@ -1,0 +1,332 @@
+{
+  "skill": "deep-research",
+  "artifact": "research_plan",
+  "generated_at": "2026-08-27T08:39:50Z",
+  "id": "plan-do-four-day-work-weeks-improve-software-team-delivery-withou",
+  "topic": "Do four-day work weeks improve software-team delivery without harming quality?",
+  "mode": "historical",
+  "effort": "medium",
+  "reframe": {
+    "original": "Do four-day work weeks improve software-team delivery without harming quality?",
+    "reframed": "What does current high-integrity evidence show about Do four-day work weeks improve software-team delivery without harming quality?",
+    "assumptions": [],
+    "implicit_judgments": [],
+    "falsifiable": true
+  },
+  "scope": {
+    "temporal": {
+      "since": "unspecified — prefer last 5 years plus foundational sources",
+      "until": "as of research date",
+      "as_of_required": true
+    },
+    "geographic": {
+      "code": "GLOBAL",
+      "note": "Prefer international primary sources (UN, OECD, WHO, ISO, IMF) then regional primaries.",
+      "priority_domains": [
+        "oecd.org",
+        "who.int",
+        "imf.org",
+        "un.org",
+        "worldbank.org",
+        "iso.org"
+      ]
+    },
+    "mode": "historical",
+    "effort": "medium",
+    "source_types_in_scope": [
+      "primary documents",
+      "government / official statistics",
+      "peer-reviewed or equivalently reviewed",
+      "high-quality journalism",
+      "think tanks across the political/methodological spectrum",
+      "datasets and filings"
+    ],
+    "exclusion_criteria": [
+      "Unverified social posts as standalone evidence",
+      "Anonymous blogs without data or primary citation",
+      "Vendor collateral without independent corroboration",
+      "Paywalled claims that cannot be verified from an open primary",
+      "vendor webinars without methods"
+    ],
+    "disciplinary_lenses": [
+      "historical"
+    ]
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "What is the current, evidence-based answer to: Do four-day work weeks improve software-team delivery without harming quality?",
+      "priority": "pivotal",
+      "evidence_types": [
+        "primary documents",
+        "archival records",
+        "contemporaneous press",
+        "historiographical debate"
+      ],
+      "related_entities": [
+        "Do four-day work weeks improve software-team delivery without harming quality"
+      ]
+    },
+    {
+      "id": "Q2",
+      "text": "What are the strongest competing explanations or positions, and what evidence supports each?",
+      "priority": "pivotal",
+      "evidence_types": [
+        "primary documents",
+        "archival records",
+        "contemporaneous press",
+        "historiographical debate"
+      ],
+      "related_entities": [
+        "Do four-day work weeks improve software-team delivery without harming quality"
+      ]
+    },
+    {
+      "id": "Q3",
+      "text": "Which claims are well-established vs contested vs unknown as of the research date?",
+      "priority": "pivotal",
+      "evidence_types": [
+        "primary documents",
+        "archival records",
+        "contemporaneous press",
+        "historiographical debate"
+      ],
+      "related_entities": [
+        "Do four-day work weeks improve software-team delivery without harming quality"
+      ]
+    },
+    {
+      "id": "Q4",
+      "text": "What mechanisms (causal, institutional, technical) would have to be true for the leading claim to hold?",
+      "priority": "supporting",
+      "evidence_types": [
+        "contemporaneous press",
+        "historiographical debate",
+        "material evidence"
+      ],
+      "related_entities": [
+        "Do four-day work weeks improve software-team delivery without harming quality"
+      ]
+    },
+    {
+      "id": "Q5",
+      "text": "Who are the stakeholders, what incentives do they have, and how does that shape the evidence base?",
+      "priority": "supporting",
+      "evidence_types": [
+        "contemporaneous press",
+        "historiographical debate",
+        "material evidence"
+      ],
+      "related_entities": [
+        "Do four-day work weeks improve software-team delivery without harming quality"
+      ]
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "code": "H_lead",
+      "text": "The leading public claim about Do four-day work weeks improve software-team delivery without harming quality is approximately correct and survives independent sources.",
+      "status": "untested",
+      "falsification_test": "Identify the observation that would most reduce posterior belief, then search for it first.",
+      "related_questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    {
+      "id": "H2",
+      "code": "H_alt",
+      "text": "An alternative mechanism or interpretation explains the same observations better than the leading claim.",
+      "status": "untested",
+      "falsification_test": "Identify the observation that would most reduce posterior belief, then search for it first.",
+      "related_questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    },
+    {
+      "id": "H3",
+      "code": "H_null",
+      "text": "Apparent effects around Do four-day work weeks improve software-team delivery without harming quality are measurement artifacts, selection effects, or narrative without causal support.",
+      "status": "untested",
+      "falsification_test": "Identify the observation that would most reduce posterior belief, then search for it first.",
+      "related_questions": [
+        "Q1",
+        "Q2",
+        "Q3"
+      ]
+    }
+  ],
+  "premortem": [
+    {
+      "failure_mode": "Source-selection bias (convenient, English-language, first-page results)",
+      "mitigation": "Force 4–8 query variants, site: diversity packs, and an explicit outlier/contrarian search."
+    },
+    {
+      "failure_mode": "Shared provenance treated as independent corroboration",
+      "mitigation": "Cluster sources by publisher family, wire service, and citation graph; require 2 independent high-integrity sources for pivotal claims."
+    },
+    {
+      "failure_mode": "Recency illusion or stale consensus",
+      "mitigation": "Date-stamp every finding; recency-weight scores; flag rapidly evolving topics for a monitor note."
+    },
+    {
+      "failure_mode": "Semantic drift across iterative retrieval",
+      "mitigation": "Revisit the reframed query at each phase; persist original intent in the evidence store."
+    },
+    {
+      "failure_mode": "Overconfidence in synthesis (narrative smoother than evidence)",
+      "mitigation": "Run skeptic persona + contradiction detector; attach confidence bands with drivers."
+    },
+    {
+      "failure_mode": "Paywall / access gaps silently dropped",
+      "mitigation": "Log access failures; seek open versions, DOI, or official mirrors; never fabricate access."
+    },
+    {
+      "failure_mode": "False equivalence on contested topics",
+      "mitigation": "Steelman each side, then report evidential weight — not a 50/50 split by default."
+    },
+    {
+      "failure_mode": "Scope creep into adjacent interesting questions",
+      "mitigation": "Write exclusion criteria; park out-of-scope items in a parking lot, do not chase them."
+    }
+  ],
+  "personas": [
+    {
+      "id": "analyst",
+      "role": "Map the landscape, extract claims, keep the evidence store clean.",
+      "pass": "gather"
+    },
+    {
+      "id": "domain_expert",
+      "role": "Judge methodological quality, jargon, and what a specialist would consider missing.",
+      "pass": "triangulate"
+    },
+    {
+      "id": "skeptic",
+      "role": "Hunt disconfirming evidence, shared provenance, and overclaiming.",
+      "pass": "challenge"
+    },
+    {
+      "id": "decision_maker",
+      "role": "Demand decision-relevance, residual risk, and what would change the call.",
+      "pass": "deliver"
+    }
+  ],
+  "plan": {
+    "phases": [
+      {
+        "id": "ingest",
+        "goal": "Capture user goal, constraints, prior store, and success criteria."
+      },
+      {
+        "id": "plan",
+        "goal": "Decompose questions, hypotheses, scope, pre-mortem, and tool DAG."
+      },
+      {
+        "id": "gather",
+        "goal": "Horizon scan then targeted primary-source extraction into the evidence store."
+      },
+      {
+        "id": "triangulate",
+        "goal": "Score sources, map claims, detect contradictions, measure coverage."
+      },
+      {
+        "id": "synthesize",
+        "goal": "Build outline, calibrated findings, and stakeholder-shaped narrative."
+      },
+      {
+        "id": "challenge",
+        "goal": "Skeptic/steelman/red-team pass on pivotal claims; verification loop."
+      },
+      {
+        "id": "deliver",
+        "goal": "Layered outputs + audit trail + limitations + research agenda."
+      }
+    ],
+    "effort_tier": "medium",
+    "effort_notes": "Standard deep research: layered report + evidence appendix + skeptic pass.",
+    "tool_rounds_estimate": "3–5",
+    "verification_loop_required": true,
+    "parallelization": [
+      "Independent sub-questions may be searched in parallel.",
+      "Source-type packs (gov / academic / news / filings) should be queried in one round.",
+      "Persona passes after gather can run conceptually in sequence: analyst → expert → skeptic → decision-maker."
+    ],
+    "early_stopping": [
+      "Stop gathering a sub-question after 70–80% conceptual coverage or two consecutive low-yield rounds.",
+      "Stop verification when pivotal claims have ≥2 independent high/medium-integrity sources or sparsity is explicit."
+    ],
+    "replan_triggers": [
+      "Major evidence contradicts a planning assumption.",
+      "Access failures block a primary-source class.",
+      "Contradiction detector flags a pivotal factual dispute.",
+      "Coverage analyzer shows a high-priority question at <40% coverage.",
+      "User goal shifts (decision vs scholarly vs advocacy)."
+    ],
+    "todo_milestones": [
+      "Research plan: Q1",
+      "Research plan: Q2",
+      "Research plan: Q3",
+      "Research plan: Q4",
+      "Research plan: Q5",
+      "Horizon scan complete",
+      "Evidence store populated",
+      "Source scoring + claim matrix",
+      "Contradiction + coverage pass",
+      "Skeptic / steelman pass",
+      "Deliver layered outputs"
+    ],
+    "scripts_by_phase": {
+      "plan": [
+        "research_planner.py",
+        "query_expander.py"
+      ],
+      "gather": [
+        "evidence_store.py",
+        "citation_normalizer.py"
+      ],
+      "triangulate": [
+        "source_scorer.py",
+        "claim_matrix.py",
+        "contradiction_detector.py",
+        "coverage_analyzer.py"
+      ],
+      "synthesize": [
+        "synthesis_outliner.py",
+        "confidence_calibrator.py"
+      ],
+      "challenge": [
+        "contradiction_detector.py",
+        "confidence_calibrator.py"
+      ],
+      "deliver": [
+        "citation_normalizer.py",
+        "evidence_store.py"
+      ]
+    }
+  },
+  "deliverables": [
+    "research brief",
+    "research plan",
+    "evidence log / store",
+    "claim-evidence matrix",
+    "findings memo",
+    "decision brief",
+    "annotated bibliography",
+    "limitations + research agenda"
+  ],
+  "quality_bar": {
+    "pivotal_claim_sources": "≥2 independent high/medium-integrity or 1 primary",
+    "date_stamp": true,
+    "steelman_required": true,
+    "confidence_bands": true
+  },
+  "resume": {
+    "evidence_store": "research-store.jsonl",
+    "prior_plan_id": null
+  }
+}

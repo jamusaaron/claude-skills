@@ -3,7 +3,7 @@
   "name": "claude-code-skills",
   "description": "Production-ready skill packages for AI agents - Marketing, Engineering, Product, C-Level, PM, and RA/QM",
   "repository": "https://github.com/alirezarezvani/claude-skills",
-  "total_skills": 156,
+  "total_skills": 157,
   "skills": [
     {
       "name": "contract-and-proposal-writer",
@@ -394,6 +394,12 @@
       "source": "../../engineering/database-schema-designer",
       "category": "engineering-advanced",
       "description": "Database Schema Designer"
+    },
+    {
+      "name": "deep-research",
+      "source": "../../engineering/deep-research",
+      "category": "engineering-advanced",
+      "description": "Run sophisticated deep research on complex, ambiguous, controversial, or high-stakes questions that need multi-source evidence, credibility scoring, bias checks, competing-hypothesis analysis, uncertainty calibration, and fully traceable outputs (research brief, plan, evidence store, findings memo, decision brief). Use when the user asks for deep research, a comprehensive investigation, multi-source synthesis, a fact-check with evidence, a balanced report on a contested topic, a policy/legal/market/technical literature map, an executive briefing, or continuing research that must resume from prior notes."
     },
     {
       "name": "dependency-auditor",
@@ -959,7 +965,7 @@
       "description": "Software engineering and technical skills"
     },
     "engineering-advanced": {
-      "count": 25,
+      "count": 26,
       "source": "../../engineering",
       "description": "Advanced engineering skills - agents, RAG, MCP, CI/CD, databases, observability"
     },

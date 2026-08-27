@@ -1,0 +1,149 @@
+{
+  "skill": "deep-research",
+  "artifact": "query_set",
+  "generated_at": "2026-08-27T08:40:18Z",
+  "seed": "four-day work week productivity RCT",
+  "geo": "GLOBAL",
+  "packs": [
+    "web",
+    "academic",
+    "government",
+    "news",
+    "contrarian"
+  ],
+  "after": null,
+  "count": 21,
+  "queries": [
+    {
+      "id": "q-core",
+      "pack": "web",
+      "purpose": "Exact-phrase precision",
+      "query": "\"four-day work week productivity RCT\""
+    },
+    {
+      "id": "q-broad",
+      "pack": "web",
+      "purpose": "Recall / horizon scan",
+      "query": "four-day work week productivity RCT"
+    },
+    {
+      "id": "q-syn",
+      "pack": "web",
+      "purpose": "Synonym swap (productivity→output)",
+      "query": "four-day work week output RCT"
+    },
+    {
+      "id": "q-or",
+      "pack": "web",
+      "purpose": "Boolean synonym OR-group",
+      "query": "four-day work week ((productivity OR performance) OR output) RCT"
+    },
+    {
+      "id": "q-intitle",
+      "pack": "web",
+      "purpose": "Title constraint",
+      "query": "intitle:four-day \"four-day work week productivity RCT\""
+    },
+    {
+      "id": "q-pdf",
+      "pack": "web",
+      "purpose": "Document hunt",
+      "query": "\"four-day work week productivity RCT\" filetype:pdf"
+    },
+    {
+      "id": "q-exclude-seo",
+      "pack": "web",
+      "purpose": "Reduce content-farm noise",
+      "query": "\"four-day work week productivity RCT\" -site:pinterest.com -site:reddit.com -inurl:signup"
+    },
+    {
+      "id": "q-disconfirm",
+      "pack": "contrarian",
+      "purpose": "Disconfirming evidence",
+      "query": "\"four-day work week productivity RCT\" \"failed to replicate\""
+    },
+    {
+      "id": "q-no-evidence",
+      "pack": "contrarian",
+      "purpose": "Negative-result hunt",
+      "query": "\"four-day work week productivity RCT\" \"no significant\" OR \"null result\" OR \"we find no\""
+    },
+    {
+      "id": "q-academic-sites",
+      "pack": "academic",
+      "purpose": "Scholarly site pack",
+      "query": "\"four-day work week productivity RCT\" (site:arxiv.org OR site:pubmed.ncbi.nlm.nih.gov OR site:nih.gov OR site:jstor.org OR site:ssrn.com OR site:nber.org)"
+    },
+    {
+      "id": "q-academic-x-systematicreview",
+      "pack": "academic",
+      "purpose": "Scholarly extra",
+      "query": "\"four-day work week productivity RCT\" \"systematic review\""
+    },
+    {
+      "id": "q-academic-x-metaanalysis",
+      "pack": "academic",
+      "purpose": "Scholarly extra",
+      "query": "\"four-day work week productivity RCT\" \"meta-analysis\""
+    },
+    {
+      "id": "q-government-sites",
+      "pack": "government",
+      "purpose": "Government / official statistics site pack",
+      "query": "\"four-day work week productivity RCT\" (site:oecd.org OR site:who.int OR site:imf.org OR site:worldbank.org OR site:un.org)"
+    },
+    {
+      "id": "q-government-xlsx",
+      "pack": "government",
+      "purpose": "Government / official statistics filetype:xlsx",
+      "query": "\"four-day work week productivity RCT\" filetype:xlsx"
+    },
+    {
+      "id": "q-government-x-officialstatisti",
+      "pack": "government",
+      "purpose": "Government / official statistics extra",
+      "query": "\"four-day work week productivity RCT\" \"official statistics\""
+    },
+    {
+      "id": "q-news-sites",
+      "pack": "news",
+      "purpose": "Quality journalism site pack",
+      "query": "\"four-day work week productivity RCT\" (site:reuters.com OR site:apnews.com OR site:bbc.com OR site:ft.com OR site:economist.com OR site:propublica.org)"
+    },
+    {
+      "id": "q-contrarian-x-critiquerebuttal",
+      "pack": "contrarian",
+      "purpose": "Outlier / disconfirming extra",
+      "query": "\"four-day work week productivity RCT\" critique OR rebuttal OR \"we find no evidence\""
+    },
+    {
+      "id": "q-scholar",
+      "pack": "academic",
+      "purpose": "Scholarly operators",
+      "query": "\"four-day work week productivity RCT\" source:nature OR source:science filetype:pdf"
+    },
+    {
+      "id": "q-review",
+      "pack": "academic",
+      "purpose": "Reviews first",
+      "query": "\"four-day work week productivity RCT\" (\"systematic review\" OR \"meta-analysis\" OR Cochrane)"
+    },
+    {
+      "id": "q-data",
+      "pack": "government",
+      "purpose": "Datasets",
+      "query": "\"four-day work week productivity RCT\" (dataset OR \"microdata\" OR filetype:csv OR filetype:xlsx)"
+    },
+    {
+      "id": "q-primary",
+      "pack": "docs",
+      "purpose": "Primary documents",
+      "query": "\"four-day work week productivity RCT\" (legislation OR judgment OR \"technical report\" OR RFC) filetype:pdf"
+    }
+  ],
+  "notes": [
+    "Deterministic expansion only — execute with your environment's web/search tools.",
+    "Always pair a precision phrase query with a disconfirming query.",
+    "site: packs are not exhaustive; add domain-specific hosts from the research plan."
+  ]
+}

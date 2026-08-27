@@ -1,0 +1,117 @@
+{
+  "skill": "deep-research",
+  "artifact": "evidence_store",
+  "schema_version": 1,
+  "topic": "Four-day work week effects on software-team productivity",
+  "evidence": [
+    {
+      "id": "ev-iceland-gov",
+      "url": "https://www.gov.is/publications/four-day-week-trial",
+      "title": "Iceland shorter working week trials: official evaluation",
+      "authors": ["Reykjavik City", "Icelandic Government"],
+      "published": "2021-07-01",
+      "source_type": "government",
+      "question_id": "Q1",
+      "band": "high",
+      "credibility": {"band": "high", "score": 88},
+      "claims": [
+        {
+          "id": "c-ice-1",
+          "text": "Trial sites maintained or improved service levels while reducing hours by 4–5 per week.",
+          "polarity": "supports",
+          "question_id": "Q1"
+        }
+      ],
+      "quotes": ["Productivity remained the same or improved in the majority of workplaces."],
+      "tags": ["rct-adjacent", "public-sector", "iceland"],
+      "persona": "analyst"
+    },
+    {
+      "id": "ev-msft-japan",
+      "url": "https://news.microsoft.com/source/2019/11/04/four-day-work-week/",
+      "title": "Microsoft Japan four-day work week trial results",
+      "authors": ["Microsoft Japan"],
+      "published": "2019-11-04",
+      "source_type": "corporate",
+      "question_id": "Q1",
+      "band": "medium",
+      "credibility": {"band": "medium", "score": 61},
+      "claims": [
+        {
+          "text": "Labour productivity rose 39.9% during a one-month four-day trial.",
+          "polarity": "supports",
+          "question_id": "Q1"
+        }
+      ],
+      "tags": ["vendor", "short-trial"],
+      "persona": "analyst"
+    },
+    {
+      "id": "ev-bloom-critique",
+      "url": "https://www.nber.org/papers/w30492",
+      "doi": "10.3386/w30492",
+      "title": "Working from home and productivity: a review of the evidence",
+      "authors": ["Bloom, Nicholas"],
+      "published": "2022-09-01",
+      "source_type": "academic",
+      "question_id": "Q2",
+      "band": "high",
+      "credibility": {"band": "high", "score": 86},
+      "peer_reviewed": true,
+      "claims": [
+        {
+          "text": "Remote and compressed-week effects on productivity are highly task- and measurement-dependent; self-reported gains often exceed output-based measures.",
+          "polarity": "refutes",
+          "question_id": "Q1"
+        },
+        {
+          "text": "Selection effects and short trial windows inflate apparent productivity gains.",
+          "polarity": "supports",
+          "question_id": "Q2"
+        }
+      ],
+      "tags": ["measurement", "wfh", "review"],
+      "persona": "domain_expert"
+    },
+    {
+      "id": "ev-blog-hype",
+      "url": "https://medium.com/@growthhacker/four-day-week-destroyed-the-5-day-office",
+      "title": "The four-day week destroyed the five-day office",
+      "authors": ["Growth Hacker"],
+      "published": "2024-03-12",
+      "source_type": "blog",
+      "question_id": "Q1",
+      "band": "low",
+      "credibility": {"band": "low", "score": 28},
+      "claims": [
+        {
+          "text": "Every company that tries a four-day week sees productivity explode by 40% or more.",
+          "polarity": "supports",
+          "question_id": "Q1"
+        }
+      ],
+      "tags": ["advocacy", "overclaim"],
+      "persona": "skeptic"
+    },
+    {
+      "id": "ev-4dww-uk",
+      "url": "https://autonomy.work/portfolio/uk4dwwpilot/",
+      "title": "The UK's four-day week pilot",
+      "authors": ["Autonomy", "4 Day Week Global"],
+      "published": "2023-02-21",
+      "source_type": "think-tank",
+      "question_id": "Q1",
+      "band": "medium-high",
+      "credibility": {"band": "medium-high", "score": 72},
+      "claims": [
+        {
+          "text": "Company revenue stayed broadly the same while staff-reported productivity rose; 92% of firms continued after the trial.",
+          "polarity": "supports",
+          "question_id": "Q1"
+        }
+      ],
+      "tags": ["pilot", "uk", "self-report"],
+      "persona": "analyst"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "skill": "deep-research",
+  "artifact": "claim_matrix",
+  "generated_at": "2026-08-27T08:39:50Z",
+  "counts": {
+    "claims_in": 6,
+    "clusters": 6,
+    "sources": 5,
+    "contested": 0,
+    "weakly_supported": 5,
+    "supported": 0
+  },
+  "questions_coverage": {
+    "Q1": 5,
+    "Q2": 1
+  },
+  "questions_declared": [],
+  "pivotal_gaps": [
+    {
+      "id": "c-ice-1",
+      "text": "Trial sites maintained or improved service levels while reducing hours by 4–5 per week",
+      "status": "weakly-supported",
+      "independence": {
+        "unique_publisher_families": [
+          "gov.is"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      }
+    },
+    {
+      "id": "C-b8adb24cb7",
+      "text": "Selection effects and short trial windows inflate apparent productivity gains",
+      "status": "weakly-supported",
+      "independence": {
+        "unique_publisher_families": [
+          "nber.org"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      }
+    },
+    {
+      "id": "C-b6a9145ae9",
+      "text": "Company revenue stayed broadly the same while staff-reported productivity rose; 92% of firms continued after the trial",
+      "status": "weakly-supported",
+      "independence": {
+        "unique_publisher_families": [
+          "autonomy.work"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      }
+    },
+    {
+      "id": "C-720ebe2d46",
+      "text": "Labour productivity rose 39.9% during a one-month four-day trial",
+      "status": "weakly-supported",
+      "independence": {
+        "unique_publisher_families": [
+          "microsoft.com"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 0,
+        "independent_high_support": 0,
+        "meets_pivotal_bar": false
+      }
+    },
+    {
+      "id": "C-470c0b525c",
+      "text": "Every company that tries a four-day week sees productivity explode by 40% or more",
+      "status": "weakly-supported",
+      "independence": {
+        "unique_publisher_families": [
+          "medium.com"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 0,
+        "independent_high_support": 0,
+        "meets_pivotal_bar": false
+      }
+    }
+  ],
+  "matrix": [
+    {
+      "id": "c-ice-1",
+      "text": "Trial sites maintained or improved service levels while reducing hours by 4–5 per week",
+      "question_ids": [
+        "Q1"
+      ],
+      "support_count": 1,
+      "refute_count": 0,
+      "neutral_count": 0,
+      "support_weight": 3,
+      "refute_weight": 0,
+      "net_weight": 3,
+      "sources": [
+        "ev-iceland-gov"
+      ],
+      "support_sources": [
+        "ev-iceland-gov"
+      ],
+      "refute_sources": [],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "gov.is"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      },
+      "status": "weakly-supported"
+    },
+    {
+      "id": "C-dd2e88e2da",
+      "text": "Remote and compressed-week effects on productivity are highly task- and measurement-dependent; self-reported gains often exceed output-based measures",
+      "question_ids": [
+        "Q1"
+      ],
+      "support_count": 0,
+      "refute_count": 1,
+      "neutral_count": 0,
+      "support_weight": 0,
+      "refute_weight": 3,
+      "net_weight": -3,
+      "sources": [
+        "ev-bloom-critique"
+      ],
+      "support_sources": [],
+      "refute_sources": [
+        "ev-bloom-critique"
+      ],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "nber.org"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 0,
+        "meets_pivotal_bar": false
+      },
+      "status": "refuted"
+    },
+    {
+      "id": "C-b8adb24cb7",
+      "text": "Selection effects and short trial windows inflate apparent productivity gains",
+      "question_ids": [
+        "Q2"
+      ],
+      "support_count": 1,
+      "refute_count": 0,
+      "neutral_count": 0,
+      "support_weight": 3,
+      "refute_weight": 0,
+      "net_weight": 3,
+      "sources": [
+        "ev-bloom-critique"
+      ],
+      "support_sources": [
+        "ev-bloom-critique"
+      ],
+      "refute_sources": [],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "nber.org"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      },
+      "status": "weakly-supported"
+    },
+    {
+      "id": "C-b6a9145ae9",
+      "text": "Company revenue stayed broadly the same while staff-reported productivity rose; 92% of firms continued after the trial",
+      "question_ids": [
+        "Q1"
+      ],
+      "support_count": 1,
+      "refute_count": 0,
+      "neutral_count": 0,
+      "support_weight": 3,
+      "refute_weight": 0,
+      "net_weight": 3,
+      "sources": [
+        "ev-4dww-uk"
+      ],
+      "support_sources": [
+        "ev-4dww-uk"
+      ],
+      "refute_sources": [],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "autonomy.work"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 1,
+        "independent_high_support": 1,
+        "meets_pivotal_bar": false
+      },
+      "status": "weakly-supported"
+    },
+    {
+      "id": "C-720ebe2d46",
+      "text": "Labour productivity rose 39.9% during a one-month four-day trial",
+      "question_ids": [
+        "Q1"
+      ],
+      "support_count": 1,
+      "refute_count": 0,
+      "neutral_count": 0,
+      "support_weight": 2,
+      "refute_weight": 0,
+      "net_weight": 2,
+      "sources": [
+        "ev-msft-japan"
+      ],
+      "support_sources": [
+        "ev-msft-japan"
+      ],
+      "refute_sources": [],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "microsoft.com"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 0,
+        "independent_high_support": 0,
+        "meets_pivotal_bar": false
+      },
+      "status": "weakly-supported"
+    },
+    {
+      "id": "C-470c0b525c",
+      "text": "Every company that tries a four-day week sees productivity explode by 40% or more",
+      "question_ids": [
+        "Q1"
+      ],
+      "support_count": 1,
+      "refute_count": 0,
+      "neutral_count": 0,
+      "support_weight": 1,
+      "refute_weight": 0,
+      "net_weight": 1,
+      "sources": [
+        "ev-blog-hype"
+      ],
+      "support_sources": [
+        "ev-blog-hype"
+      ],
+      "refute_sources": [],
+      "unique_source_ids": 1,
+      "independence": {
+        "unique_publisher_families": [
+          "medium.com"
+        ],
+        "family_count": 1,
+        "shared_provenance_risk": false,
+        "high_or_better_sources": 0,
+        "independent_high_support": 0,
+        "meets_pivotal_bar": false
+      },
+      "status": "weakly-supported"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 # Claude Code Skills & Plugins
 
-**177 production-ready skills, 16 agents, 3 personas, and an orchestration protocol for 11 AI coding tools.**
+**178 production-ready skills, 16 agents, 3 personas, and an orchestration protocol for 11 AI coding tools.**
 
 Reusable expertise packages that give AI coding agents domain knowledge they don't have out of the box — from architecture and security to marketing, compliance, and C-level advisory.
 
 **Works with:** Claude Code · OpenAI Codex · Gemini CLI · OpenClaw · Cursor · Aider · Windsurf · Kilo Code · OpenCode · Augment · Antigravity
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Skills](https://img.shields.io/badge/Skills-177-brightgreen?style=for-the-badge)](#skills-overview)
+[![Skills](https://img.shields.io/badge/Skills-178-brightgreen?style=for-the-badge)](#skills-overview)
 [![Agents](https://img.shields.io/badge/Agents-16-blue?style=for-the-badge)](#agents)
 [![Personas](https://img.shields.io/badge/Personas-3-purple?style=for-the-badge)](#personas)
 [![Commands](https://img.shields.io/badge/Commands-17-orange?style=for-the-badge)](#commands)
@@ -23,10 +23,10 @@ Reusable expertise packages that give AI coding agents domain knowledge they don
 Skills are modular instruction packages that give AI coding agents domain expertise they don't have out of the box. Each skill includes:
 
 - **SKILL.md** — structured instructions, workflows, and decision frameworks
-- **Python tools** — 254 CLI scripts (all stdlib-only, zero pip installs)
+- **Python tools** — 264 CLI scripts (all stdlib-only, zero pip installs)
 - **Reference docs** — templates, checklists, and domain-specific knowledge
 
-**One repo, eleven platforms.** Works natively with Claude Code, and converts to 10 other tools via `scripts/convert.sh`. All 254 Python tools run anywhere Python runs.
+**One repo, eleven platforms.** Works natively with Claude Code, and converts to 10 other tools via `scripts/convert.sh`. All 264 Python tools run anywhere Python runs.
 
 ### Skills vs Agents vs Personas
 
@@ -65,7 +65,7 @@ cd claude-skills
 
 # Install by domain
 /plugin install engineering-skills@claude-code-skills          # 24 core engineering
-/plugin install engineering-advanced-skills@claude-code-skills  # 25 POWERFUL-tier
+/plugin install engineering-advanced-skills@claude-code-skills  # 26 POWERFUL-tier
 /plugin install product-skills@claude-code-skills               # 12 product skills
 /plugin install marketing-skills@claude-code-skills             # 43 marketing skills
 /plugin install ra-qm-skills@claude-code-skills                 # 12 regulatory/quality
@@ -212,13 +212,14 @@ See [orchestration/ORCHESTRATION.md](orchestration/ORCHESTRATION.md) for the ful
 
 ## POWERFUL Tier
 
-25 advanced skills with deep, production-grade capabilities:
+26 advanced skills with deep, production-grade capabilities:
 
 | Skill | What It Does |
 |-------|-------------|
 | **agent-designer** | Multi-agent orchestration, tool schemas, performance evaluation |
 | **agent-workflow-designer** | Sequential, parallel, router, orchestrator, and evaluator patterns |
 | **rag-architect** | RAG pipeline builder, chunking optimizer, retrieval evaluator |
+| **deep-research** | Multi-source research pipeline, source scoring, claim matrix, decision briefs |
 | **database-designer** | Schema analyzer, ERD generation, index optimizer, migration generator |
 | **database-schema-designer** | Requirements → migrations, types, seed data, RLS policies |
 | **migration-architect** | Migration planner, compatibility checker, rollback generator |
@@ -342,7 +343,7 @@ Yes. Skills work natively with 11 tools: Claude Code, OpenAI Codex, Gemini CLI, 
 No. We follow semantic versioning and maintain backward compatibility within patch releases. Existing script arguments, plugin source paths, and SKILL.md structures are never changed in patch versions. See the [CHANGELOG](CHANGELOG.md) for details on each release.
 
 **Are the Python tools dependency-free?**
-Yes. All 254 Python CLI tools use the standard library only — zero pip installs required. Every script is verified to run with `--help`.
+Yes. All 264 Python CLI tools use the standard library only — zero pip installs required. Every script is verified to run with `--help`.
 
 **How do I create my own Claude Code skill?**
 Each skill is a folder with a `SKILL.md` (frontmatter + instructions), optional `scripts/`, `references/`, and `assets/`. See the [Skills & Agents Factory](https://github.com/alirezarezvani/claude-code-skills-agents-factory) for a step-by-step guide.
