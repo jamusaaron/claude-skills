@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 218,
+  "total_skills": 219,
   "skills": [
     {
       "name": "cs-agile-product-owner",
@@ -602,6 +602,11 @@
       "name": "database-schema-designer",
       "category": "engineering-advanced",
       "description": "Database Schema Designer"
+    },
+    {
+      "name": "deep-research",
+      "category": "engineering-advanced",
+      "description": "Run sophisticated deep research on complex, ambiguous, controversial, or high-stakes questions that need multi-source evidence, credibility scoring, bias checks, competing-hypothesis analysis, uncertainty calibration, and fully traceable outputs (research brief, plan, evidence store, findings memo, decision brief). Use when the user asks for deep research, a comprehensive investigation, multi-source synthesis, a fact-check with evidence, a balanced report on a contested topic, a policy/legal/market/technical literature map, an executive briefing, or continuing research that must resume from prior notes."
     },
     {
       "name": "dependency-auditor",

@@ -1,0 +1,195 @@
+{
+  "skill": "deep-research",
+  "artifact": "coverage_report",
+  "generated_at": "2026-08-27T08:39:50Z",
+  "as_of_year": 2026,
+  "min_sources_per_question": 2,
+  "summary": {
+    "questions": 5,
+    "records": 5,
+    "unmapped_records": 0,
+    "empty_questions": 3,
+    "thin_questions": 1,
+    "adequate_questions": 0,
+    "publisher_diversity": 0.8,
+    "source_classes": {
+      "government": 1,
+      "other": 1,
+      "academic": 1,
+      "blog": 1,
+      "think-tank": 1
+    },
+    "band_mix": {
+      "high": 2,
+      "medium": 1,
+      "low": 1,
+      "medium-high": 1
+    },
+    "mix": {
+      "primary_or_gov": 1,
+      "academic": 1,
+      "secondary": 2
+    }
+  },
+  "questions": [
+    {
+      "id": "Q1",
+      "text": "What is the current, evidence-based answer to: Do four-day work weeks improve software-team delivery without harming quality?",
+      "priority": "pivotal",
+      "source_count": 5,
+      "high_integrity_count": 3,
+      "recent_count": 2,
+      "types_present": [
+        "academic",
+        "blog",
+        "government",
+        "other",
+        "think-tank"
+      ],
+      "missing_types": [
+        "primary documents"
+      ],
+      "coverage_pct_vs_min": 100,
+      "status": "imbalanced"
+    },
+    {
+      "id": "Q2",
+      "text": "What are the strongest competing explanations or positions, and what evidence supports each?",
+      "priority": "pivotal",
+      "source_count": 1,
+      "high_integrity_count": 1,
+      "recent_count": 0,
+      "types_present": [
+        "academic"
+      ],
+      "missing_types": [
+        "primary documents"
+      ],
+      "coverage_pct_vs_min": 50,
+      "status": "thin"
+    },
+    {
+      "id": "Q3",
+      "text": "Which claims are well-established vs contested vs unknown as of the research date?",
+      "priority": "pivotal",
+      "source_count": 0,
+      "high_integrity_count": 0,
+      "recent_count": 0,
+      "types_present": [],
+      "missing_types": [
+        "primary documents"
+      ],
+      "coverage_pct_vs_min": 0,
+      "status": "empty"
+    },
+    {
+      "id": "Q4",
+      "text": "What mechanisms (causal, institutional, technical) would have to be true for the leading claim to hold?",
+      "priority": "supporting",
+      "source_count": 0,
+      "high_integrity_count": 0,
+      "recent_count": 0,
+      "types_present": [],
+      "missing_types": [],
+      "coverage_pct_vs_min": 0,
+      "status": "empty"
+    },
+    {
+      "id": "Q5",
+      "text": "Who are the stakeholders, what incentives do they have, and how does that shape the evidence base?",
+      "priority": "supporting",
+      "source_count": 0,
+      "high_integrity_count": 0,
+      "recent_count": 0,
+      "types_present": [],
+      "missing_types": [],
+      "coverage_pct_vs_min": 0,
+      "status": "empty"
+    }
+  ],
+  "gaps": [
+    {
+      "question_id": "Q1",
+      "status": "imbalanced",
+      "why": "Missing source classes: primary documents",
+      "next_actions": [
+        "Acquire evidence type: primary documents"
+      ]
+    },
+    {
+      "question_id": "Q2",
+      "status": "thin",
+      "why": "Fewer than 2 sources or no high-integrity source",
+      "next_actions": [
+        "Add a source from the last 3 years to catch recency shifts.",
+        "Acquire evidence type: primary documents"
+      ]
+    },
+    {
+      "question_id": "Q3",
+      "status": "empty",
+      "why": "No sources mapped",
+      "next_actions": [
+        "Run query_expander.py on: Which claims are well-established vs contested vs unknown as of the research date?",
+        "Search a government pack and an academic pack before news.",
+        "Locate a primary document, dataset, or official statistic.",
+        "Acquire evidence type: primary documents"
+      ]
+    },
+    {
+      "question_id": "Q4",
+      "status": "empty",
+      "why": "No sources mapped",
+      "next_actions": [
+        "Run query_expander.py on: What mechanisms (causal, institutional, technical) would have to be true for the leading claim to hold?",
+        "Search a government pack and an academic pack before news.",
+        "Locate a primary document, dataset, or official statistic."
+      ]
+    },
+    {
+      "question_id": "Q5",
+      "status": "empty",
+      "why": "No sources mapped",
+      "next_actions": [
+        "Run query_expander.py on: Who are the stakeholders, what incentives do they have, and how does that shape the evidence base?",
+        "Search a government pack and an academic pack before news.",
+        "Locate a primary document, dataset, or official statistic."
+      ]
+    }
+  ],
+  "unmapped_record_ids": [],
+  "orphan_question_ids": [],
+  "year_histogram": {
+    "2019": 1,
+    "2021": 1,
+    "2022": 1,
+    "2023": 1,
+    "2024": 1
+  },
+  "stale_year_buckets": [],
+  "top_hosts": [
+    [
+      "gov.is",
+      1
+    ],
+    [
+      "news.microsoft.com",
+      1
+    ],
+    [
+      "nber.org",
+      1
+    ],
+    [
+      "medium.com",
+      1
+    ],
+    [
+      "autonomy.work",
+      1
+    ]
+  ],
+  "recommendations": [
+    "Empty questions remain — do not synthesize a confident answer yet."
+  ]
+}

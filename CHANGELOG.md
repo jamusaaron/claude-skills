@@ -5,6 +5,17 @@ All notable changes to the Claude Skills Library will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added — Deep Research POWERFUL skill
+
+- **`engineering/deep-research`** — new POWERFUL-tier research package (upgraded from the uploaded deep-research methodology skill)
+- Seven-phase pipeline: ingest → plan → gather → triangulate → synthesize → challenge → deliver
+- 10 stdlib Python CLIs: planner, query expander, evidence store (merge/resume), source scorer, claim matrix, contradiction detector, coverage analyzer, citation normalizer, synthesis outliner, confidence calibrator
+- Expert references: methodology, 12-point source rubric, bias checklist, evidence-card notes, playbooks, legal/ethical boundaries, query design, stakeholder outputs, multi-persona protocol, optional Grok recipes
+- Templates: research brief, plan, evidence log, claim matrix, source tracker, findings memo, decision memo, interview protocol, teardown canvas
+- Registered in marketplace (`engineering-advanced-skills` now 26 skills), Codex/Gemini indexes, MkDocs, README
+
 ## [2.1.2] - 2026-03-10
 
 ### Changed — Product Team Quality & Cross-Domain Integration

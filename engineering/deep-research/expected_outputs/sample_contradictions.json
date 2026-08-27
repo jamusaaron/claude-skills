@@ -1,0 +1,207 @@
+{
+  "skill": "deep-research",
+  "artifact": "contradiction_report",
+  "generated_at": "2026-08-27T08:40:18Z",
+  "notes_scanned": 6,
+  "pairs_flagged": 7,
+  "by_class": {
+    "factual": 7
+  },
+  "high_severity": 6,
+  "conflicts": [
+    {
+      "left_id": "n1",
+      "right_id": "n2",
+      "left_text": "Four-day work weeks increase software-team productivity by 39.9 percent in a one-month trial.",
+      "right_text": "Four-day work weeks decrease software-team productivity once output-based measures replace self-reports; apparent 40 percent gains do not survive.",
+      "left_source": "n1",
+      "right_source": "n2",
+      "overlap": 0.316,
+      "kinds": [
+        "antonym",
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not",
+        "antonym pair increase/decrease"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n2",
+      "right_id": "n4",
+      "left_text": "Four-day work weeks decrease software-team productivity once output-based measures replace self-reports; apparent 40 percent gains do not survive.",
+      "right_text": "Four-day work weeks increase software-team productivity by 40 percent or more at every company.",
+      "left_source": "n2",
+      "right_source": "n4",
+      "overlap": 0.3,
+      "kinds": [
+        "antonym",
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not",
+        "antonym pair increase/decrease"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n1",
+      "right_id": "n3",
+      "left_text": "Four-day work weeks increase software-team productivity by 39.9 percent in a one-month trial.",
+      "right_text": "Iceland four-day work week trials maintained service levels and did not increase productivity by 40 percent.",
+      "left_source": "n1",
+      "right_source": "n3",
+      "overlap": 0.294,
+      "kinds": [
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n3",
+      "right_id": "n4",
+      "left_text": "Iceland four-day work week trials maintained service levels and did not increase productivity by 40 percent.",
+      "right_text": "Four-day work weeks increase software-team productivity by 40 percent or more at every company.",
+      "left_source": "n3",
+      "right_source": "n4",
+      "overlap": 0.278,
+      "kinds": [
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n1",
+      "right_id": "n6",
+      "left_text": "Four-day work weeks increase software-team productivity by 39.9 percent in a one-month trial.",
+      "right_text": "There is no evidence that a universal four-day work week increases software-team productivity after selection effects are removed.",
+      "left_source": "n1",
+      "right_source": "n6",
+      "overlap": 0.222,
+      "kinds": [
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n4",
+      "right_id": "n6",
+      "left_text": "Four-day work weeks increase software-team productivity by 40 percent or more at every company.",
+      "right_text": "There is no evidence that a universal four-day work week increases software-team productivity after selection effects are removed.",
+      "left_source": "n4",
+      "right_source": "n6",
+      "overlap": 0.211,
+      "kinds": [
+        "negation"
+      ],
+      "detail": [
+        "one claim negated, the other not"
+      ],
+      "dispute_class": "factual",
+      "severity": "high",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    },
+    {
+      "left_id": "n2",
+      "right_id": "n3",
+      "left_text": "Four-day work weeks decrease software-team productivity once output-based measures replace self-reports; apparent 40 percent gains do not survive.",
+      "right_text": "Iceland four-day work week trials maintained service levels and did not increase productivity by 40 percent.",
+      "left_source": "n2",
+      "right_source": "n3",
+      "overlap": 0.208,
+      "kinds": [
+        "antonym"
+      ],
+      "detail": [
+        "antonym pair increase/decrease"
+      ],
+      "dispute_class": "factual",
+      "severity": "medium",
+      "next_step": "Re-acquire primary data or original document; treat as a verification-loop target."
+    }
+  ],
+  "verification_targets": [
+    {
+      "ids": [
+        "n1",
+        "n2"
+      ],
+      "why": [
+        "one claim negated, the other not",
+        "antonym pair increase/decrease"
+      ],
+      "class": "factual"
+    },
+    {
+      "ids": [
+        "n2",
+        "n4"
+      ],
+      "why": [
+        "one claim negated, the other not",
+        "antonym pair increase/decrease"
+      ],
+      "class": "factual"
+    },
+    {
+      "ids": [
+        "n1",
+        "n3"
+      ],
+      "why": [
+        "one claim negated, the other not"
+      ],
+      "class": "factual"
+    },
+    {
+      "ids": [
+        "n3",
+        "n4"
+      ],
+      "why": [
+        "one claim negated, the other not"
+      ],
+      "class": "factual"
+    },
+    {
+      "ids": [
+        "n1",
+        "n6"
+      ],
+      "why": [
+        "one claim negated, the other not"
+      ],
+      "class": "factual"
+    },
+    {
+      "ids": [
+        "n4",
+        "n6"
+      ],
+      "why": [
+        "one claim negated, the other not"
+      ],
+      "class": "factual"
+    }
+  ]
+}

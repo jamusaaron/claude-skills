@@ -1,0 +1,6 @@
+{"id": "n1", "source_id": "ev-msft-japan", "question_id": "Q1", "text": "Four-day work weeks increase software-team productivity by 39.9 percent in a one-month trial."}
+{"id": "n2", "source_id": "ev-bloom-critique", "question_id": "Q1", "text": "Four-day work weeks decrease software-team productivity once output-based measures replace self-reports; apparent 40 percent gains do not survive."}
+{"id": "n3", "source_id": "ev-iceland-gov", "question_id": "Q1", "text": "Iceland four-day work week trials maintained service levels and did not increase productivity by 40 percent."}
+{"id": "n4", "source_id": "ev-blog-hype", "question_id": "Q1", "text": "Four-day work weeks increase software-team productivity by 40 percent or more at every company."}
+{"id": "n5", "source_id": "ev-4dww-uk", "question_id": "Q1", "text": "UK four-day work week pilot: revenue stayed the same; staff-reported productivity rose but was not independently audited output."}
+{"id": "n6", "source_id": "ev-bloom-critique", "question_id": "Q2", "polarity": "supports", "text": "There is no evidence that a universal four-day work week increases software-team productivity after selection effects are removed."}
