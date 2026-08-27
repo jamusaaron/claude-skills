@@ -1,6 +1,6 @@
 ---
 name: "engineering-advanced-skills"
-description: "25 advanced POWERFUL-tier engineering skills covering agent design, RAG architecture, MCP servers, CI/CD pipelines, database design, observability, security auditing, release management, and platform operations. Works with Claude Code, Codex CLI, and OpenClaw."
+description: "26 advanced POWERFUL-tier engineering skills covering agent design, deep research, RAG architecture, MCP servers, CI/CD pipelines, database design, observability, security auditing, release management, and platform operations. Works with Claude Code, Codex CLI, and OpenClaw."
 version: 1.1.0
 author: Alireza Rezvani
 license: MIT
@@ -20,7 +20,7 @@ agents:
 
 # Engineering Advanced Skills (POWERFUL Tier)
 
-25 advanced engineering skills for complex architecture, automation, and platform operations.
+26 advanced engineering skills for complex architecture, automation, and platform operations.
 
 ## Quick Start
 
@@ -47,6 +47,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills/engineering
 | Codebase Onboarding | `codebase-onboarding/` | New dev onboarding guides |
 | Database Designer | `database-designer/` | Schema design, migrations |
 | Database Schema Designer | `database-schema-designer/` | ERD, normalization |
+| Deep Research | `deep-research/` | Agentic evidence synthesis, source criticism, claim ledgers |
 | Dependency Auditor | `dependency-auditor/` | Dependency security scanning |
 | Env Secrets Manager | `env-secrets-manager/` | Secrets rotation, vault |
 | Git Worktree Manager | `git-worktree-manager/` | Parallel branch workflows |

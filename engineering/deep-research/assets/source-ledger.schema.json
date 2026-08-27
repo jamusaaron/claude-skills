@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Deep research source ledger",
+  "type": "object",
+  "required": ["version", "sources"],
+  "properties": {
+    "version": { "type": "string" },
+    "query": { "type": "string" },
+    "as_of": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "date": { "type": "string" },
+          "type": { "type": "string" },
+          "integrity_score": { "type": "number" },
+          "integrity_band": { "type": "string" },
+          "justification": { "type": "string" },
+          "allowed_uses": { "type": "array", "items": { "type": "string" } },
+          "cluster": { "type": "string" }
+        }
+      }
+    }
+  }
+}

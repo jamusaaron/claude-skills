@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "query": "",
+  "created": "",
+  "updated": "",
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "",
+      "type": "fact",
+      "status": "unverified",
+      "confidence": "unscored",
+      "evidence_ids": [],
+      "notes": ""
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E1",
+      "claim_ids": ["C1"],
+      "source_id": "S1",
+      "quote": "",
+      "url": "https://example.gov/x",
+      "date": "2026-01-15",
+      "stance": "supports",
+      "integrity_band": "unscored",
+      "notes": ""
+    }
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "",
+      "url": "https://example.gov/x",
+      "date": "2026-01-15",
+      "type": "government",
+      "integrity_band": "unscored",
+      "notes": ""
+    }
+  ]
+}

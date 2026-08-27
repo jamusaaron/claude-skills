@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 218,
+  "total_skills": 219,
   "skills": [
     {
       "name": "cs-agile-product-owner",
@@ -604,6 +604,11 @@
       "description": "Database Schema Designer"
     },
     {
+      "name": "deep-research",
+      "category": "engineering-advanced",
+      "description": "Run sophisticated deep research on complex, ambiguous, controversial, or high-stakes questions that need multi-source evidence, source criticism, triangulation, bias audits, uncertainty bands, and audit-ready outputs (executive briefing, claim ledger, source appendix). Use when the user asks for deep research, a comprehensive investigation, multi-source synthesis, a fact-check with evidence, a balanced report on a contested topic, an in-depth study, a research report, an executive briefing, policy/legal/scientific/market analysis with provenance, or any question where a search-then-summarize pass would be insufficient. Triggers: deep research, thorough analysis, evidence synthesis, claim ledger, source credibility, steelman both sides, adversarial review, literature-quality brief."
+    },
+    {
       "name": "dependency-auditor",
       "category": "engineering-advanced",
       "description": "Dependency Auditor"
@@ -1116,7 +1121,7 @@
       "description": "Engineering resources"
     },
     "engineering-advanced": {
-      "count": 27,
+      "count": 28,
       "description": "Engineering-advanced resources"
     },
     "finance": {

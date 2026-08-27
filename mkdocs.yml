@@ -171,6 +171,7 @@ nav:
       - "Codebase Onboarding": skills/engineering/codebase-onboarding.md
       - "Database Designer": skills/engineering/database-designer.md
       - "Database Schema Designer": skills/engineering/database-schema-designer.md
+      - "Deep Research": skills/engineering/deep-research.md
       - "Dependency Auditor": skills/engineering/dependency-auditor.md
       - "Env & Secrets Manager": skills/engineering/env-secrets-manager.md
       - "Git Worktree Manager": skills/engineering/git-worktree-manager.md

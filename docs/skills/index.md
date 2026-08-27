@@ -237,13 +237,14 @@ graph LR
         | [Email Template Builder](engineering-team/email-template-builder.md) | HTML email templates |
         | [Incident Commander](engineering-team/incident-commander.md) | Incident response |
 
-    ??? note "POWERFUL Engineering (25 skills)"
+    ??? note "POWERFUL Engineering (26 skills)"
 
         | Skill | Focus |
         |-------|-------|
         | [Agent Designer](engineering/agent-designer.md) | Multi-agent system architecture |
         | [Agent Workflow Designer](engineering/agent-workflow-designer.md) | Agent orchestration patterns |
         | [RAG Architect](engineering/rag-architect.md) | Retrieval-augmented generation |
+        | [Deep Research](engineering/deep-research.md) | Agentic evidence synthesis, source criticism, claim ledgers |
         | [MCP Server Builder](engineering/mcp-server-builder.md) | Model Context Protocol servers |
         | [Database Designer](engineering/database-designer.md) | Schema design, optimization |
         | [Database Schema Designer](engineering/database-schema-designer.md) | ERD, migrations |

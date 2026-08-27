@@ -4,11 +4,11 @@
     "name": "Alireza Rezvani",
     "url": "https://alirezarezvani.com"
   },
-  "description": "177 production-ready skill packages for Claude AI across 9 domains: marketing (43), engineering (24+25), C-level advisory (28), regulatory/QMS (12), product (12), project management (6), business growth (4), and finance (2). Includes 254 Python tools, 357 reference documents, 16 agents, and 17 slash commands.",
+  "description": "178 production-ready skill packages for Claude AI across 9 domains: marketing (43), engineering (24+26), C-level advisory (28), regulatory/QMS (12), product (12), project management (6), business growth (4), and finance (2). Includes 262 Python tools, 368 reference documents, 16 agents, and 17 slash commands.",
   "homepage": "https://github.com/alirezarezvani/claude-skills",
   "repository": "https://github.com/alirezarezvani/claude-skills",
   "metadata": {
-    "description": "177 production-ready skill packages across 9 domains with 254 Python tools, 357 reference documents, 16 agents, and 17 slash commands. Compatible with Claude Code, Codex CLI, Gemini CLI, and OpenClaw.",
+    "description": "178 production-ready skill packages across 9 domains with 262 Python tools, 368 reference documents, 16 agents, and 17 slash commands. Compatible with Claude Code, Codex CLI, Gemini CLI, and OpenClaw.",
     "version": "2.1.2"
   },
   "plugins": [
@@ -59,13 +59,14 @@
     {
       "name": "engineering-advanced-skills",
       "source": "./engineering",
-      "description": "25 advanced engineering skills: agent designer, RAG architect, database designer, migration architect, observability designer, dependency auditor, release manager, API reviewer, CI/CD pipeline builder, MCP server builder, skill security auditor, performance profiler, and more.",
+      "description": "26 advanced engineering skills: agent designer, deep research, RAG architect, database designer, migration architect, observability designer, dependency auditor, release manager, API reviewer, CI/CD pipeline builder, MCP server builder, skill security auditor, performance profiler, and more.",
       "version": "2.1.2",
       "author": {
         "name": "Alireza Rezvani"
       },
       "keywords": [
         "agent-design",
+        "deep-research",
         "rag",
         "database",
         "migration",

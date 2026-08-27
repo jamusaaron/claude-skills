@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/alirezarezvani/claude-skills/engineering/deep-research/assets/claim-ledger.schema.json",
+  "title": "Deep research claim ledger",
+  "type": "object",
+  "required": ["version", "query", "claims", "evidence", "sources"],
+  "properties": {
+    "version": { "type": "string" },
+    "query": { "type": "string" },
+    "created": { "type": "string" },
+    "updated": { "type": "string" },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "statement", "type", "status", "evidence_ids"],
+        "properties": {
+          "id": { "type": "string" },
+          "statement": { "type": "string" },
+          "type": { "enum": ["fact", "interpretation", "mechanism", "forecast", "value"] },
+          "status": { "enum": ["unverified", "supported", "contested", "refuted", "insufficient"] },
+          "confidence": { "type": "string" },
+          "evidence_ids": { "type": "array", "items": { "type": "string" } },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "stance"],
+        "properties": {
+          "id": { "type": "string" },
+          "claim_ids": { "type": "array", "items": { "type": "string" } },
+          "source_id": { "type": "string" },
+          "quote": { "type": "string" },
+          "url": { "type": "string" },
+          "date": { "type": "string" },
+          "stance": { "enum": ["supports", "contradicts", "qualifies", "context"] },
+          "integrity_band": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "url": { "type": "string" },
+          "date": { "type": "string" },
+          "type": { "type": "string" },
+          "integrity_band": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "query": "",
+  "as_of": "",
+  "sources": [
+    {
+      "id": "S1",
+      "title": "",
+      "url": "https://example.gov/report",
+      "date": "2026-01-15",
+      "type": "government",
+      "integrity_score": 0,
+      "integrity_band": "unscored",
+      "justification": "",
+      "allowed_uses": [],
+      "cluster": ""
+    }
+  ]
+}

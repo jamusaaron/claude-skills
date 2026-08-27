@@ -65,7 +65,7 @@ cd claude-skills
 
 # Install by domain
 /plugin install engineering-skills@claude-code-skills          # 24 core engineering
-/plugin install engineering-advanced-skills@claude-code-skills  # 25 POWERFUL-tier
+/plugin install engineering-advanced-skills@claude-code-skills  # 26 POWERFUL-tier
 /plugin install product-skills@claude-code-skills               # 12 product skills
 /plugin install marketing-skills@claude-code-skills             # 43 marketing skills
 /plugin install ra-qm-skills@claude-code-skills                 # 12 regulatory/quality
@@ -212,7 +212,7 @@ See [orchestration/ORCHESTRATION.md](orchestration/ORCHESTRATION.md) for the ful
 
 ## POWERFUL Tier
 
-25 advanced skills with deep, production-grade capabilities:
+26 advanced skills with deep, production-grade capabilities:
 
 | Skill | What It Does |
 |-------|-------------|
@@ -221,6 +221,7 @@ See [orchestration/ORCHESTRATION.md](orchestration/ORCHESTRATION.md) for the ful
 | **rag-architect** | RAG pipeline builder, chunking optimizer, retrieval evaluator |
 | **database-designer** | Schema analyzer, ERD generation, index optimizer, migration generator |
 | **database-schema-designer** | Requirements → migrations, types, seed data, RLS policies |
+| **deep-research** | Agentic evidence synthesis, 12-point source criticism, claim ledgers, calibrated briefs |
 | **migration-architect** | Migration planner, compatibility checker, rollback generator |
 | **skill-security-auditor** | 🔒 Security gate — scan skills for malicious code before installation |
 | **ci-cd-pipeline-builder** | Analyze stack → generate GitHub Actions / GitLab CI configs |

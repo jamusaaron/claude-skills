@@ -5,6 +5,19 @@ All notable changes to the Claude Skills Library will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added — Deep Research skill (POWERFUL)
+
+New production skill at `engineering/deep-research/`:
+
+- Agent-operable 11-phase research OS (intake through case log) with risk classes, effort tiers, DAG planning, and replan/early-stop rules
+- 11 reference knowledge bases (source rubric, claim graphs, bias/adversarial analysis, calibration, search taxonomy, output contracts, agentic patterns, domain lenses, quality bar, red-team, tool orchestration)
+- 8 stdlib Python CLIs: planner, query generator, source scorer, claim ledger, confidence calibrator, bias audit, report assembler, citation integrity
+- Templates and JSON schemas for briefs, ledgers, reports, red-team, and case logs
+- Optional jurisdiction packs (including Australian/Commonwealth legal-policy) — not the default personality
+- Platform-agnostic tool adapters (Claude Code, Cursor, Codex, Gemini); Grok-only tools are optional
+
 ## [2.1.2] - 2026-03-10
 
 ### Changed — Product Team Quality & Cross-Domain Integration
