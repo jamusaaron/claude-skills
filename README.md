@@ -297,7 +297,7 @@ for MDR Annex II compliance gaps.
 
 ## Python Analysis Tools
 
-254 CLI tools ship with the skills (all verified, stdlib-only):
+262 CLI tools ship with the skills (all verified, stdlib-only):
 
 ```bash
 # SaaS health check
