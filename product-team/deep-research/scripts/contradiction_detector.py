@@ -64,8 +64,20 @@ def normalize(text: str) -> str:
     return text
 
 
+def stem(token: str) -> str:
+    if token.endswith("ing") and len(token) > 6:
+        return token[:-3]
+    if token.endswith("ed") and len(token) > 5:
+        return token[:-2]
+    if token.endswith("es") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("s") and len(token) > 3 and not token.endswith("ss"):
+        return token[:-1]
+    return token
+
+
 def tokens(text: str) -> List[str]:
-    return TOKEN.findall(normalize(text))
+    return [stem(t) for t in TOKEN.findall(normalize(text))]
 
 
 def signature(text: str) -> Tuple[frozenset, str]:
@@ -122,6 +134,12 @@ def opposing(side_a: str, side_b: str) -> bool:
     return polar.get(side_a) == side_b or polar.get(side_b) == side_a
 
 
+def polarities_oppose(pol_a: str, pol_b: str) -> bool:
+    negative = {"contradicts", "against", "disconfirm", "oppose"}
+    positive = {"supports", "for"}
+    return (pol_a in positive and pol_b in negative) or (pol_b in positive and pol_a in negative)
+
+
 def load_notes(path: str) -> Dict[str, Any]:
     with open(path, "r", encoding="utf-8") as handle:
         data = json.load(handle)
@@ -167,24 +185,25 @@ def detect(notes: Dict[str, Any]) -> Dict[str, Any]:
     for i, a in enumerate(prepared):
         for b in prepared[i + 1 :]:
             sim = overlap(a["core"], b["core"])
-            if sim < 0.35:
+            same_question = bool(a["question_id"] and a["question_id"] == b["question_id"])
+            lexical_hit = sim >= 0.28 and opposing(a["side"], b["side"])
+            polarity_hit = polarities_oppose(a["polarity"], b["polarity"]) and (
+                same_question or sim >= 0.18
+            )
+            if not (lexical_hit or polarity_hit):
                 continue
             pair = tuple(sorted([a["id"], b["id"]]))
             if pair in used_pairs:
                 continue
             used_pairs.add(pair)
-            if opposing(a["side"], b["side"]) or (
-                a["polarity"] in {"supports", "for"} and b["polarity"] in {"contradicts", "against", "disconfirm"}
-                and sim >= 0.45
-            ):
-                contradictions.append({
-                    "claims": [a["id"], b["id"]],
-                    "texts": [a["text"], b["text"]],
-                    "overlap": round(sim, 2),
-                    "dispute_type": classify_dispute(a["text"], b["text"]),
-                    "question_ids": [x for x in (a["question_id"], b["question_id"]) if x],
-                    "resolution_hint": _hint(classify_dispute(a["text"], b["text"])),
-                })
+            contradictions.append({
+                "claims": [a["id"], b["id"]],
+                "texts": [a["text"], b["text"]],
+                "overlap": round(sim, 2),
+                "dispute_type": classify_dispute(a["text"], b["text"]),
+                "question_ids": [x for x in (a["question_id"], b["question_id"]) if x],
+                "resolution_hint": _hint(classify_dispute(a["text"], b["text"])),
+            })
 
     # Consensus: high overlap, same side
     parent = {c["id"]: c["id"] for c in prepared}
@@ -203,7 +222,11 @@ def detect(notes: Dict[str, Any]) -> Dict[str, Any]:
     for i, a in enumerate(prepared):
         for b in prepared[i + 1 :]:
             sim = overlap(a["core"], b["core"])
-            if sim >= 0.5 and not opposing(a["side"], b["side"]):
+            if (
+                sim >= 0.34
+                and not opposing(a["side"], b["side"])
+                and not polarities_oppose(a["polarity"], b["polarity"])
+            ):
                 union(a["id"], b["id"])
 
     buckets: Dict[str, List[str]] = defaultdict(list)

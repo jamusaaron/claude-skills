@@ -14,7 +14,7 @@ import argparse
 import json
 import sys
 from datetime import date
-from typing import Any, Dict, Optional
+from typing import Any, Dict, List, Optional
 
 
 KINDS = ("brief", "memo", "bibliography", "layered")
