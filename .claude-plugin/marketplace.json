@@ -129,7 +129,7 @@
     {
       "name": "product-skills",
       "source": "./product-team",
-      "description": "12 product skills with 13 Python tools: product manager toolkit (RICE, PRDs), agile product owner, product strategist, UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, product analytics, experiment designer, product discovery, roadmap communicator.",
+      "description": "13 product skills with 22 Python tools: product manager toolkit (RICE, PRDs), agile product owner, product strategist, UX researcher, UI design system, competitive teardown, landing page generator, SaaS scaffolder, product analytics, experiment designer, product discovery, roadmap communicator, deep research.",
       "version": "2.1.2",
       "author": {
         "name": "Alireza Rezvani"
@@ -146,7 +146,9 @@
         "analytics",
         "experimentation",
         "discovery",
-        "roadmap"
+        "roadmap",
+        "research",
+        "deep-research"
       ],
       "category": "product"
     },

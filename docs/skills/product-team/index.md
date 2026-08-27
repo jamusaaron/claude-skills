@@ -1,13 +1,13 @@
 ---
 title: "Product Skills"
-description: "All 13 Product skills for Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
+description: "All 14 Product skills for Claude Code, Codex CLI, Gemini CLI, and OpenClaw."
 ---
 
 <div class="domain-header" markdown>
 
 # :material-lightbulb-outline: Product
 
-<p class="domain-count">13 skills in this domain</p>
+<p class="domain-count">14 skills in this domain</p>
 
 </div>
 
@@ -24,6 +24,12 @@ description: "All 13 Product skills for Claude Code, Codex CLI, Gemini CLI, and 
     Backlog management and sprint execution toolkit for product owners, including user story generation, acceptance crite...
 
 -   **[Competitive Teardown](competitive-teardown.md)**
+
+    ---
+
+    Tier: POWERFUL
+
+-   **[Deep Research](deep-research.md)**
 
     ---
 

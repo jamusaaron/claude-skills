@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "name": "gemini-cli-skills",
-  "total_skills": 218,
+  "total_skills": 219,
   "skills": [
     {
       "name": "cs-agile-product-owner",
@@ -939,6 +939,11 @@
       "description": "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits, pricing model breakdowns, action item roadmaps, and stakeholder presentation templates. Use when conducting competitor analysis, comparing products against competitors, researching the competitive landscape, building battle cards for sales, preparing for a product strategy or roadmap session, responding to a competitor's new feature or pricing change, or performing a quarterly competitive review."
     },
     {
+      "name": "deep-research",
+      "category": "product",
+      "description": "Run a production research-ops pipeline for complex, ambiguous, contested, or high-stakes questions. Decompose the query, plan searches, score source credibility, triangulate claims across independent lineages, detect contradictions, measure coverage/freshness gaps, and package layered outputs (executive brief, synthesis memo, annotated bibliography, full report) with uncertainty bands and an audit trail. Use when the user asks for deep research, a comprehensive investigation, multi-source synthesis, evidence-backed fact-check, balanced report on a controversial topic, policy or scientific literature review, executive briefing, or any answer that must be traceable rather than a first-page summary."
+    },
+    {
       "name": "experiment-designer",
       "category": "product",
       "description": "Use when planning product experiments, writing testable hypotheses, estimating sample size, prioritizing tests, or interpreting A/B outcomes with practical statistical rigor."
@@ -1128,7 +1133,7 @@
       "description": "Marketing resources"
     },
     "product": {
-      "count": 13,
+      "count": 14,
       "description": "Product resources"
     },
     "project-management": {

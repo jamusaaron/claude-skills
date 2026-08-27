@@ -1,0 +1,254 @@
+{
+  "query": "Does remote-first work increase or decrease engineering productivity in mid-size SaaS companies (2020-2026)?",
+  "as_of": "2026-08-27",
+  "geography": "global",
+  "overall_confidence": "Medium",
+  "bottom_line": "Remote-first engineering productivity is highly sensitive to measurement definition: output-ticket studies often show flat-to-positive effects, while collaboration-and-innovation proxies more often show modest declines. Treat a single-direction answer as over-specified.",
+  "required_source_types": ["primary", "government", "academic", "statistics"],
+  "research_questions": [
+    {
+      "id": "q1",
+      "question": "How is engineering productivity defined across studies (commits, cycle time, revenue/FTE, self-report)?",
+      "role": "definition"
+    },
+    {
+      "id": "q2",
+      "question": "What causal or quasi-experimental evidence exists for remote-first vs office-first engineering teams?",
+      "role": "causal"
+    },
+    {
+      "id": "q3",
+      "question": "Do effects differ by seniority, company size, or time since remote transition?",
+      "role": "heterogeneity"
+    },
+    {
+      "id": "q4",
+      "question": "Which findings replicate across independent datasets rather than the same firm sample?",
+      "role": "corroboration"
+    },
+    {
+      "id": "q5",
+      "question": "What are the strongest disconfirming findings?",
+      "role": "disconfirming"
+    }
+  ],
+  "sources": [
+    {
+      "id": "s_nber_wfh",
+      "title": "Work from Home and Productivity: Evidence from Patent and Firm Data",
+      "author": "Bloom et al.",
+      "organization": "NBER",
+      "url": "https://www.nber.org/papers/w00000",
+      "date": "2024-03-15",
+      "type": "academic",
+      "peer_reviewed": false,
+      "preprint": true,
+      "primary": true,
+      "methodology": "Difference-in-differences on firm patent output and inventor location with matched controls and robustness to alternative clustering.",
+      "limitations": "Patent counts lag real-time engineering throughput; US-heavy sample.",
+      "funding": "NBER; no industry sponsor disclosed",
+      "independent_corroborations": 2,
+      "sample_size": 2400,
+      "open_data": false,
+      "engages_counter_evidence": true,
+      "integrity": "Medium-High",
+      "average": 3.9,
+      "cites": ["s_abs_hybrid"],
+      "geography": "us"
+    },
+    {
+      "id": "s_abs_hybrid",
+      "title": "Working arrangements and measured labour productivity",
+      "author": "Australian Bureau of Statistics",
+      "organization": "ABS",
+      "url": "https://www.abs.gov.au/statistics/labour/productivity",
+      "date": "2025-11-02",
+      "type": "government",
+      "primary": true,
+      "methodology": "Official labour productivity statistics with published methods and revisions policy.",
+      "limitations": "National aggregate; not engineering-occupation specific.",
+      "funding": "Public",
+      "independent_corroborations": 1,
+      "open_data": true,
+      "engages_counter_evidence": true,
+      "integrity": "High",
+      "average": 4.5,
+      "cites": [],
+      "geography": "au"
+    },
+    {
+      "id": "s_oecd_remote",
+      "title": "Telework and productivity: cross-country evidence",
+      "author": "OECD",
+      "organization": "OECD",
+      "url": "https://www.oecd.org/employment/telework-productivity",
+      "date": "2023-06-01",
+      "type": "government",
+      "primary": true,
+      "methodology": "Cross-country panel with survey instruments documented in annex.",
+      "limitations": "Self-reported productivity in several series.",
+      "funding": "Public",
+      "independent_corroborations": 3,
+      "open_data": true,
+      "engages_counter_evidence": true,
+      "integrity": "High",
+      "average": 4.4,
+      "cites": ["s_abs_hybrid"],
+      "geography": "global"
+    },
+    {
+      "id": "s_vendor_survey",
+      "title": "The State of Developer Productivity 2025",
+      "author": "Acme DevTools",
+      "organization": "Acme DevTools",
+      "url": "https://www.acmedevtools.example/reports/dev-productivity-2025",
+      "date": "2025-09-12",
+      "type": "corporate",
+      "methodology": "Opt-in customer survey, n=180, no pre-registration.",
+      "limitations": "Vendor sample; leading questions on tool ROI.",
+      "funding": "Vendor marketing budget",
+      "conflicts": "Industry sponsor selling related software",
+      "independent_corroborations": 0,
+      "sample_size": 180,
+      "opinion": false,
+      "integrity": "Medium-Low",
+      "average": 2.3,
+      "cites": ["s_nber_wfh"],
+      "geography": "global"
+    },
+    {
+      "id": "s_blog_hot_take",
+      "title": "Remote work DESTROYED big tech engineering — the secret data",
+      "author": "Anon Stack",
+      "organization": "Personal blog",
+      "url": "https://anonstack.medium.com/remote-destroyed-engineering",
+      "date": "2022-01-04",
+      "type": "blog",
+      "excerpt": "Shocking secret data they don't want you to see.",
+      "anecdote": true,
+      "independent_corroborations": 0,
+      "integrity": "Low",
+      "average": 1.4,
+      "cites": [],
+      "geography": "us"
+    },
+    {
+      "id": "s_meta_cycle",
+      "title": "A meta-analysis of software cycle time under hybrid work",
+      "author": "Chen and Okonkwo",
+      "organization": "IEEE",
+      "url": "https://doi.org/10.1109/example.2025.000",
+      "date": "2025-02-20",
+      "type": "academic",
+      "peer_reviewed": true,
+      "primary": true,
+      "meta_analysis": true,
+      "methodology": "PRISMA-guided meta-analysis of 31 studies; random-effects model; heterogeneity reported.",
+      "limitations": "Publication bias remaining after trim-and-fill.",
+      "funding": "University grant; disclosed",
+      "independent_corroborations": 4,
+      "sample_size": 31000,
+      "open_data": true,
+      "engages_counter_evidence": true,
+      "integrity": "High",
+      "average": 4.6,
+      "cites": ["s_nber_wfh", "s_oecd_remote"],
+      "geography": "global"
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "claim": "Remote-first work increases engineering ticket throughput in mid-size SaaS firms.",
+      "question_id": "q2",
+      "polarity": "supports",
+      "source_ids": ["s_vendor_survey", "s_nber_wfh"],
+      "supports": ["s_vendor_survey", "s_nber_wfh"]
+    },
+    {
+      "id": "c2",
+      "claim": "Remote-first work decreases engineering collaboration quality and innovation proxies.",
+      "question_id": "q2",
+      "polarity": "contradicts",
+      "source_ids": ["s_nber_wfh", "s_oecd_remote"],
+      "supports": ["s_nber_wfh", "s_oecd_remote"]
+    },
+    {
+      "id": "c3",
+      "claim": "Measured labour productivity at national level is mixed and not occupation-specific.",
+      "question_id": "q1",
+      "polarity": "supports",
+      "source_ids": ["s_abs_hybrid", "s_oecd_remote"],
+      "supports": ["s_abs_hybrid", "s_oecd_remote"]
+    },
+    {
+      "id": "c4",
+      "claim": "Cycle-time meta-analysis finds a small negative remote effect that is significant.",
+      "question_id": "q4",
+      "polarity": "supports",
+      "source_ids": ["s_meta_cycle"],
+      "supports": ["s_meta_cycle"]
+    },
+    {
+      "id": "c5",
+      "claim": "Cycle-time studies find remote work is ineffective at improving delivery speed.",
+      "question_id": "q5",
+      "polarity": "supports",
+      "source_ids": ["s_meta_cycle", "s_blog_hot_take"],
+      "supports": ["s_meta_cycle", "s_blog_hot_take"]
+    },
+    {
+      "id": "c6",
+      "claim": "Senior engineers benefit more from remote-first than juniors.",
+      "question_id": "q3",
+      "polarity": "supports",
+      "source_ids": ["s_nber_wfh"],
+      "supports": ["s_nber_wfh"]
+    }
+  ],
+  "findings": [
+    {
+      "id": "f1",
+      "text": "Productivity results flip with the metric: throughput and individual output often look better; collaboration, mentoring, and patent/innovation proxies often look worse.",
+      "confidence": "High",
+      "question_id": "q1",
+      "source_ids": ["s_nber_wfh", "s_meta_cycle", "s_oecd_remote"]
+    },
+    {
+      "id": "f2",
+      "text": "Vendor surveys overstate positive remote effects relative to official statistics and peer-reviewed syntheses.",
+      "confidence": "Medium-High",
+      "question_id": "q4",
+      "source_ids": ["s_vendor_survey", "s_abs_hybrid", "s_meta_cycle"]
+    },
+    {
+      "id": "f3",
+      "text": "Heterogeneity by seniority is plausible but currently single-lineage in this packet.",
+      "confidence": "Low",
+      "question_id": "q3",
+      "source_ids": ["s_nber_wfh"]
+    }
+  ],
+  "analysis": [
+    "Do not collapse 'productivity' into one number. Ticket throughput, cycle time, and innovation output are different constructs.",
+    "Shared-lineage risk is moderate: several papers cite the same NBER working paper.",
+    "Low-integrity blogs are retained only as narrative illustration of the public debate."
+  ],
+  "disagreements": [
+    "Throughput-positive vs cycle-time-negative results are a factual-metric dispute, not a values dispute."
+  ],
+  "limitations": [
+    "Sample notes are illustrative and use placeholder URLs.",
+    "Occupation-specific causal designs remain thin outside a few firm panels.",
+    "Evidence assessment as of 2026-08-27."
+  ],
+  "recommended_actions": [
+    "Define the decision metric before citing any productivity study.",
+    "Discount vendor surveys unless corroborated by official statistics or peer-reviewed syntheses.",
+    "Commission or locate a seniority-split replication before using that claim in policy."
+  ],
+  "decision_framework": [
+    "If the goal is individual ticket output: remote-first is not clearly harmful.",
+    "If the goal is mentoring density and invention: budget for in-person collaboration, especially for juniors."
+  ]
+}

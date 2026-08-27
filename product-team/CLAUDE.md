@@ -1,6 +1,6 @@
 # Product Team Skills - Claude Code Guidance
 
-This guide covers the 12 production-ready product management skills and their Python automation tools.
+This guide covers the 13 production-ready product management skills and their Python automation tools.
 
 ## Product Skills Overview
 
@@ -17,8 +17,9 @@ This guide covers the 12 production-ready product management skills and their Py
 10. **experiment-designer/** - Experiment design and sample size planning (1 tool)
 11. **product-discovery/** - Discovery frameworks and assumption mapping (1 tool)
 12. **roadmap-communicator/** - Roadmap communication and changelog generation (1 tool)
+13. **deep-research/** - Multi-phase research ops: plan, credibility, triangulation, packaging (9 tools)
 
-**Total Tools:** 13 Python automation tools
+**Total Tools:** 22 Python automation tools
 
 **Agents:** 5 (cs-product-manager, cs-agile-product-owner, cs-product-strategist, cs-ux-researcher, cs-product-analyst)
 
@@ -242,6 +243,28 @@ python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to HE
 python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to v2.0.0 --json
 ```
 
+### 14. Deep Research toolkit (`deep-research/scripts/`)
+
+**Purpose:** Deterministic research-ops CLIs for query decomposition, planning, source credibility, claim triangulation, evidence matrices, citation graphs, contradiction detection, coverage/freshness gaps, and output packaging.
+
+**Features:**
+- Stdlib only, `--format json|text`, `--help` on every script
+- 12-point integrity scoring and independent-lineage triangulation
+- Sample packet at `deep-research/assets/sample-research-notes.json`
+
+**Usage:**
+```bash
+python deep-research/scripts/question_decomposer.py "Does remote-first work increase engineering productivity?"
+python deep-research/scripts/research_plan_generator.py --query "..." --depth deep --as-of 2026-08-27
+python deep-research/scripts/source_credibility.py deep-research/assets/sample-research-notes.json --as-of 2026-08-27
+python deep-research/scripts/claim_triangulator.py deep-research/assets/sample-research-notes.json --sources deep-research/assets/sample-research-notes.json
+python deep-research/scripts/evidence_matrix.py deep-research/assets/sample-research-notes.json
+python deep-research/scripts/citation_graph.py deep-research/assets/sample-research-notes.json
+python deep-research/scripts/contradiction_detector.py deep-research/assets/sample-research-notes.json
+python deep-research/scripts/coverage_gap_analyzer.py deep-research/assets/sample-research-notes.json --as-of 2026-08-27
+python deep-research/scripts/output_packager.py deep-research/assets/sample-research-notes.json --kind layered --format markdown
+```
+
 ## Product Workflows
 
 ### Workflow 1: Feature Prioritization to Sprint Execution
@@ -292,6 +315,14 @@ python product-discovery/scripts/assumption_mapper.py assumptions.csv
 python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to HEAD
 ```
 
+### Workflow 8: Deep Research Packet
+
+```bash
+python deep-research/scripts/research_plan_generator.py --query "..." --depth medium --as-of 2026-08-27 --format json > plan.json
+python deep-research/scripts/source_credibility.py deep-research/assets/sample-research-notes.json --as-of 2026-08-27 --format json
+python deep-research/scripts/output_packager.py deep-research/assets/sample-research-notes.json --kind brief
+```
+
 ## Quality Standards
 
 **All product Python tools must:**
@@ -308,7 +339,7 @@ python roadmap-communicator/scripts/changelog_generator.py --from v1.0.0 --to HE
 
 ---
 
-**Last Updated:** March 11, 2026
-**Skills Deployed:** 12/12 product skills production-ready
-**Total Tools:** 13 Python automation tools
+**Last Updated:** August 27, 2026
+**Skills Deployed:** 13/13 product skills production-ready
+**Total Tools:** 22 Python automation tools
 **Agents:** 5 | **Commands:** 7

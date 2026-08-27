@@ -55,6 +55,11 @@ Next.js/React TSX components with Tailwind CSS, 4 design styles, copy frameworks
 
 Production SaaS boilerplate with Next.js, TypeScript, auth (NextAuth/Clerk/Supabase), payments (Stripe/Lemon Squeezy), and Docker.
 
+### 9. Deep Research
+**Python Tools:** `question_decomposer.py`, `research_plan_generator.py`, `source_credibility.py`, `claim_triangulator.py`, `evidence_matrix.py`, `citation_graph.py`, `contradiction_detector.py`, `coverage_gap_analyzer.py`, `output_packager.py`
+
+Multi-phase research ops: query decomposition, 12-point source credibility, independent-lineage triangulation, contradiction detection, coverage/freshness gaps, and layered report packaging.
+
 ---
 
 ## Slash Commands

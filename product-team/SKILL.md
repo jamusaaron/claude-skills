@@ -45,6 +45,7 @@ npx agent-skills-cli add alirezarezvani/claude-skills/product-team
 | Competitive Teardown | `competitive-teardown/` | Systematic competitor analysis |
 | Landing Page Generator | `landing-page-generator/` | Conversion-optimized pages |
 | SaaS Scaffolder | `saas-scaffolder/` | Production SaaS boilerplate |
+| Deep Research | `deep-research/` | Multi-phase evidence synthesis and research ops |
 
 ## Python Tools
 

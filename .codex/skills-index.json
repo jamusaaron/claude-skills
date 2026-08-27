@@ -3,7 +3,7 @@
   "name": "claude-code-skills",
   "description": "Production-ready skill packages for AI agents - Marketing, Engineering, Product, C-Level, PM, and RA/QM",
   "repository": "https://github.com/alirezarezvani/claude-skills",
-  "total_skills": 156,
+  "total_skills": 157,
   "skills": [
     {
       "name": "contract-and-proposal-writer",
@@ -774,6 +774,12 @@
       "description": "Analyzes competitor products and companies by synthesizing data from pricing pages, app store reviews, job postings, SEO signals, and social media into structured competitive intelligence. Produces feature comparison matrices scored across 12 dimensions, SWOT analyses, positioning maps, UX audits, pricing model breakdowns, action item roadmaps, and stakeholder presentation templates. Use when conducting competitor analysis, comparing products against competitors, researching the competitive landscape, building battle cards for sales, preparing for a product strategy or roadmap session, responding to a competitor's new feature or pricing change, or performing a quarterly competitive review."
     },
     {
+      "name": "deep-research",
+      "source": "../../product-team/deep-research",
+      "category": "product",
+      "description": "Run a production research-ops pipeline for complex, ambiguous, contested, or high-stakes questions. Decompose the query, plan searches, score source credibility, triangulate claims across independent lineages, detect contradictions, measure coverage/freshness gaps, and package layered outputs (executive brief, synthesis memo, annotated bibliography, full report) with uncertainty bands and an audit trail. Use when the user asks for deep research, a comprehensive investigation, multi-source synthesis, evidence-backed fact-check, balanced report on a controversial topic, policy or scientific literature review, executive briefing, or any answer that must be traceable rather than a first-page summary."
+    },
+    {
       "name": "experiment-designer",
       "source": "../../product-team/experiment-designer",
       "category": "product",
@@ -974,7 +980,7 @@
       "description": "Marketing, content, and demand generation skills"
     },
     "product": {
-      "count": 12,
+      "count": 13,
       "source": "../../product-team",
       "description": "Product management and design skills"
     },

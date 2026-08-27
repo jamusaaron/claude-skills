@@ -1,0 +1,2 @@
+id,title,url,doi,author,organization,type,date,retrieved,peer_reviewed,primary,foundational,geography,integrity,average,lineage,cites,notes,limitations
+s_example,Example paper,https://example.org/p,10.0000/ex,Name,Org,academic,2025-02-20,2026-08-27,true,true,false,global,High,4.6,lab_a,s_other,Contribution sentence,Limitation sentence
