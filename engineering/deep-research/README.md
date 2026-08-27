@@ -12,12 +12,34 @@ A self-contained package you can extract into Claude Code, Codex, Gemini CLI, or
 
 Not a search API. Scripts do not call the network or LLMs.
 
+## Install from zip
+
+Download `deep-research-v2.1.2.zip` (this folder plus `scripts/`, `references/`, `assets/`, `expected_outputs/`). Then:
+
+```bash
+unzip deep-research-v2.1.2.zip -d ~/.claude/skills/
+# result: ~/.claude/skills/deep-research/SKILL.md
+
+# Codex
+cp -R deep-research ~/.codex/skills/deep-research
+
+# Gemini CLI
+mkdir -p ~/.gemini/skills/deep-research
+cp deep-research/SKILL.md ~/.gemini/skills/deep-research/
+
+# Claude Code plugin (optional)
+claude /plugin install ./deep-research
+```
+
+Python 3.9+ standard library only. No pip packages.
+
 ## Layout
 
 ```
 deep-research/
 ├── SKILL.md
 ├── README.md
+├── .claude-plugin/plugin.json
 ├── scripts/          # 10 CLI tools
 ├── references/       # methodology, rubrics, playbooks
 ├── assets/           # templates + sample store
