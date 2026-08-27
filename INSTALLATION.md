@@ -107,7 +107,7 @@ This adds the skills library to your available marketplaces.
 # Install by domain (bundles of skills)
 /plugin install marketing-skills@claude-code-skills     # 42 marketing skills
 /plugin install engineering-skills@claude-code-skills   # 23 engineering skills
-/plugin install engineering-advanced-skills@claude-code-skills  # 25 advanced engineering skills
+/plugin install engineering-advanced-skills@claude-code-skills  # 26 advanced engineering skills
 /plugin install product-skills@claude-code-skills       # 8 product skills
 /plugin install c-level-skills@claude-code-skills       # 28 C-level advisory skills
 /plugin install pm-skills@claude-code-skills            # 6 project management skills
